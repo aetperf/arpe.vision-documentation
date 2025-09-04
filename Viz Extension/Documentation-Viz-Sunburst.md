@@ -37,6 +37,7 @@ Click the format extension button in the mark card to customize the Sunburst. Th
 | layers size     | none    | none, asc, desc |
 | percentage      | false   | true, false | Display percentages below the labels |
 | rotate labels   | false   | false, all, first |
+| font size       | 10      | Numbers |  |
 
 ### Example
 

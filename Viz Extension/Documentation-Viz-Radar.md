@@ -39,6 +39,7 @@ You can change the following elements for the Radar:
 | data color      | none    | HTML names, hexadecimal, rgb | Ex: LightBlue, #ADD8E6, rgb(173, 216, 230). |
 | scale min       | auto    | Minimum value of the scale | The minimum value of the scale. |
 | scale max       | auto    | Maximum value of the scale | The maximum value of the scale. |
+| font size       | auto    | Numbers | The font size of the Radar chart is automatically adjusted by default. |
 | highlight color | red     | HTML names, hexadecimal, rgb | Ex: LightBlue, #ADD8E6, rgb(173, 216, 230). |
 
 

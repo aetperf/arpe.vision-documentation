@@ -42,6 +42,7 @@ Customizations may be applied to both links and nodes.
 | percentage          | none      | true, false  | Display percentages at source, target, or both |
 | display values      | false     | true, false |
 | adaptive labels     | false     | true, false | If true, labels adapt to the link size, otherwise size is fixed. |
+| font size           | 10        | Numbers     | The font size of percentages are always 2px thinner than the font size. |
 
 #### Node Customization Options
 

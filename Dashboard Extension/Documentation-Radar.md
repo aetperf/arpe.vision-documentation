@@ -32,6 +32,7 @@ Click the settings button to customize the Radar. Three methods are available:
 | data color      | none    | palette names : tableau 10, tableau 20, colorblind, seattle grays, traffic light, miller stone, superfishel stone, nuriel stone, jewel bright, summer, winter, green-orange-teal, red-blue-brown, purple-pink-gray, hue circle |
 | scale min       | auto    | Numbers | Minimum value of the scale |
 | scale max       | auto    | Numbers | Maximum value of the scale |
+| font size       | auto      | Numbers | The font size of the labels automatically adjusts by default. |
 | highlight color | red     | HTML names, hexadecimal, rgb. | Ex: LightBlue, #ADD8E6, rgb(173, 216, 230). |
 
 ### Filtering

@@ -39,7 +39,7 @@ Click the settings button to customize the Tree. Three methods are available:
 | save state            | false     | true, false | If true, the tree state (if the nodes are open or closed) is saved when the dashboard is closed and restored when reopened. 
 | radial                | 0         | 0, 180, 360 |
 | orientation           | east      | east, north, south, west |
-| font size             | 14        | Number |
+| font size             | 14        | Number | The font size of the value are always 2px thinner than the selected font size. |
 | node padding          | 30/70     | Number | If the orientation is south or north, the pading is set to 70 by default.|
 | node size             | 3         | Number |
 | node stroke width     | 1.5       | Number | Width of the circle if no field is selected for Width customization. |

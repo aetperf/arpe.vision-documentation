@@ -37,6 +37,7 @@ Click the settings button to customize the Sunburst. Three methods are available
 | layers size     | none    | none, asc, desc | If "none" is selected, the layer size will not change. If "asc" is selected, the layer size will increase with each layer. If "desc" is selected, the layer size will decrease with each layer. |
 | percentage      | false   | true, false | Display percentages below the labels |
 | rotate labels   | false   | false, all, first |
+| font size       | 10      | Numbers |  |
 
 ### Filtering
 

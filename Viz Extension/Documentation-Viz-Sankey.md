@@ -39,6 +39,7 @@ Click the format extension button to customize the Sankey. Three methods are ava
 | column percentage | false | true, false |
 | column titles   | top     | none, top, bottom |
 | alignment       | justify | justify, left, right, center |
+| font size       | 10      | Numbers | The font size of column titles are always 4px larger than the selected font size. |
 
 #### Example
 

@@ -38,6 +38,7 @@ Sankey customization is performed via the settings button. Three customization m
 | column percentage | false | true, false |
 | column titles   | top     | none, top, bottom |
 | alignment       | justify | justify, left, right, center |
+| font size       | 10      | Numbers | The font size of column titles are always 4px larger than the selected font size. |
 
 ### Filtering
 
