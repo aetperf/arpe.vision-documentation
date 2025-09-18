@@ -71,7 +71,7 @@ A sheet containing the required data must be created and added to the dashboard.
   Your browser does not support the video tag.
 </video>
 
-You can further customize the Sunburst. In this example, the background color, color palette, number of layers, and layer size are set by directly selecting values in the configuration window.
+You can further customize the Sunburst. In this example, the background color, color palette, and layer size are set by directly selecting values in the configuration window. The number of layers is controlled using a parameter.
 
 <video src="./Media/sunburst-custom.mp4" controls width="800">
   Your browser does not support the video tag.

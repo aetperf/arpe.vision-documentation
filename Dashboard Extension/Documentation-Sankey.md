@@ -72,7 +72,7 @@ A sheet containing the required data must be created and added to the dashboard.
   Your browser does not support the video tag.
 </video>
 
-You can further customize the Sankey. In this example, the background color is controlled with a parameter. The link color and column palette are set directly in the configuration window.
+You can further customize the Sankey. In this example, the link color is controlled with a parameter. The background color, column palette and column percentage are set directly in the configuration window.
 
 <video src="./Media/sankey-custom.mp4" controls width="800">
   Your browser does not support the video tag.

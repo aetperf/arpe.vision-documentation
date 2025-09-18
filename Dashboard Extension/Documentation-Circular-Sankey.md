@@ -108,26 +108,31 @@ To customize nodes, use the settings as shown:
 </video>
 
  In this example, to color the links, the option degraded color is set to true and the node colors are used to create the link colors.
+
 <video src="./Media/sankeyC-custom-links.mp4" controls width="800">
   Your browser does not support the video tag.
 </video>
 
 To add icons to nodes, set the add images field to a value other than "none" (for example, "from file catalog"). After saving, an image icon appears in the extension's top right corner. Click it to open the image selection and mapping window.
+
 <video src="./Media/sankeyC-add-images.mp4" controls width="800">
   Your browser does not support the video tag.
 </video>
 
 To set up a filter, click the filter icon. You can create both link and node filters. Select the target sheet, source field, and target field, then save. The filter is now active. Click a node or link to apply the filter. Hold Ctrl and click to select multiple elements.
+
 <video src="./Media/sankeyC-filter.mp4" controls width="800">
   Your browser does not support the video tag.
 </video>
 
 To manually position nodes, set node positioning to "manual". Then, click and drag nodes to the desired location.
+
 <video src="./Media/sankeyC-manual-positioning.mp4" controls width="800">
   Your browser does not support the video tag.  
 </video>
 
 Adjust node width and height using the horizontal and vertical + and - buttons.
+
 <video src="./Media/sankeyC-change-size.mp4" controls width="800">
   Your browser does not support the video tag.
 </video>
