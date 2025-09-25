@@ -1,3 +1,4 @@
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 
 # Circular Sankey
@@ -93,43 +94,43 @@ Adjust node width with the horizontal + and - buttons. Change node height with t
 
 Create a sheet with source, target, and value columns. Optionally, create a second sheet for node customizations. The second sheet must have a column with node names and other columns for customizations. Node names must match those in the first sheet. Add both sheets to the dashboard (they can be hidden).
 
-<video src="/media/sankeyC-display.mp4" controls width="600">
+<video src={useBaseUrl('/media/sankeyC-display.mp4')} controls width="600">
   Your browser does not support the video tag.
 </video>
 
 To customize nodes, use the settings as shown:
 
-<video src="/media/sankeyC-custom-nodes.mp4" controls width="600">
+<video src={useBaseUrl('/media/sankeyC-custom-nodes.mp4')} controls width="600">
   Your browser does not support the video tag.
 </video>
 
  In this example, to color the links, the option degraded color is set to true and the node colors are used to create the link colors.
 
-<video src="/media/sankeyC-custom-links.mp4" controls width="600">
+<video src={useBaseUrl('/media/sankeyC-custom-links.mp4')} controls width="600">
   Your browser does not support the video tag.
 </video>
 
 To add icons to nodes, set the add images field to a value other than "none" (for example, "from file catalog"). After saving, an image icon appears in the extension's top right corner. Click it to open the image selection and mapping window.
 
-<video src="/media/sankeyC-add-images.mp4" controls width="600">
+<video src={useBaseUrl('/media/sankeyC-add-images.mp4')} controls width="600">
   Your browser does not support the video tag.
 </video>
 
 To set up a filter, click the filter icon. You can create both link and node filters. Select the target sheet, source field, and target field, then save. The filter is now active. Click a node or link to apply the filter. Hold Ctrl and click to select multiple elements.
 
-<video src="/media/sankeyC-filter.mp4" controls width="600">
+<video src={useBaseUrl('/media/sankeyC-filter.mp4')} controls width="600">
   Your browser does not support the video tag.
 </video>
 
 To manually position nodes, set node positioning to "manual". Then, click and drag nodes to the desired location.
 
-<video src="/media/sankeyC-manual-positioning.mp4" controls width="600">
+<video src={useBaseUrl('/media/sankeyC-manual-positioning.mp4')} controls width="600">
   Your browser does not support the video tag.  
 </video>
 
 Adjust node width and height using the horizontal and vertical + and - buttons.
 
-<video src="/media/sankeyC-change-size.mp4" controls width="800">
+<video src={useBaseUrl('/media/sankeyC-change-size.mp4')} controls width="600">
   Your browser does not support the video tag.
 </video>
 

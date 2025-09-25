@@ -1,4 +1,4 @@
-
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Tree
 
@@ -71,26 +71,26 @@ To delete a filter, check its row in the table and click Remove.
 
 Create a sheet with your data and add it to the dashboard.
 
-<video src="/media/tree-display.mp4" controls width="800">
+<video src={useBaseUrl('/media/tree-display.mp4')} controls width="600">
   Your browser does not support the video tag.
 </video>
 
 You can further customize the Tree by clicking on the customisation button. In this example, the background color is controlled with a parameter. The width and data color are taken from the sheet. The link color and proportional labels are set directly in the window.
 
-<video src="/media/tree-custom.mp4" controls width="800">
+<video src={useBaseUrl('/media/tree-custom.mp4')} controls width="600">
   Your browser does not support the video tag.
 </video>
 
 Double-click a node to open or close it. Single-click highlights the node's path.
 
-<video src="/media/tree-action.mp4" controls width="800">
+<video src={useBaseUrl('/media/tree-action.mp4')} controls width="600">
   Your browser does not support the video tag.
 </video>
 
 
 To create a filter, click the filter icon. Select the target sheet, source field, and target field, then click Save. The filter is now active. Click a node to apply the filter. Hold Ctrl and click to select multiple elements.
 
-<video src="/media/tree-filter.mp4" controls width="800">
+<video src={useBaseUrl('/media/tree-filter.mp4')} controls width="600">
   Your browser does not support the video tag.
 </video>
 

@@ -1,3 +1,4 @@
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Viz - Sunburst
 
@@ -39,29 +40,27 @@ Click the format extension button in the mark card to customize the Sunburst. Th
 
 Watch this tutorial video to learn how to create a Sunburst chart with the Sample - Superstore datasource:
 
-<video src="/media/sunburst-viz-add-extension.mp4" controls width="800">
+<video src={useBaseUrl('/media/sunburst-viz-add-extension.mp4')} controls width="600">
   Your browser does not support the video tag.
 </video>
 
 
 After adding the extension, add data to the Layer and Value mark cards.
 
-<video src="/media/sunburst-viz-display-graph.mp4" controls width="800">
+<video src={useBaseUrl('/media/sunburst-viz-display-graph.mp4')} controls width="600">
   Your browser does not support the video tag.
 </video>
 
 
 You can further customize the Sunburst. In this example, the background is set by entering a value directly. A parameter customizes the number of layers. The palette, layer size, percentage, and label rotation are set by selecting values in the dropdown menu.
 
-<video src="/media/sunburst-viz-custom.mp4" controls width="800">
+<video src={useBaseUrl('/media/sunburst-viz-custom.mp4')} controls width="600">
   Your browser does not support the video tag.
 </video>
 
 
 Highlight part of the Sunburst by clicking a node. Double-click a node to drill down. Double-click the central circle to drill up.
 
-<video src="/media/sunburst-viz-actions.mp4" controls width="800">
+<video src={useBaseUrl('/media/sunburst-viz-actions.mp4')} controls width="600">
   Your browser does not support the video tag.
 </video>
-
----

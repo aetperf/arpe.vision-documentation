@@ -12,7 +12,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 const config = {
   title: 'Extension Documentation',
   tagline: 'Which extension documentation do you want to see today?',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo_AP_rvp_95.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -20,7 +20,7 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://github.com',
+  url: 'https://aetperf.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/arpe.vision-documentation/',
@@ -30,6 +30,7 @@ const config = {
   organizationName: 'aetperf', // Usually your GitHub org/user name.
   projectName: 'arpe.vision-documentation', // Usually your repo name.
   deploymentBranch: 'gh-pages',
+  trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
@@ -95,7 +96,7 @@ const config = {
           },
           //{ to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/aetperf',
             label: 'GitHub',
             position: 'right',
           },

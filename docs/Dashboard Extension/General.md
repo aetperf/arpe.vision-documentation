@@ -3,6 +3,8 @@ sidebar_label: 'First steps'
 sidebar_position: 1
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 # General Information
 
 > **Last updated:** August, 2025
@@ -57,8 +59,7 @@ Four icons are rendered at the top right of each extension:
 
 Add a sheet with the data you wante to visualize to the dashboard. Drag and drop the Extension object into your dashboard. Select "Access Local Extensions" and choose the extension file (.trex). The extension will appear in your dashboard, displaying a window with a list of sheets. select the sheet previously added to the dashboard.
 
-<video  controls width="600">
-  <source src="/media/radar-display.mp4" type="video/mp4" />
+<video src={useBaseUrl('/media/radar-display.mp4')} controls width="600">
   Your browser does not support the video tag.
 </video>
 
@@ -67,7 +68,6 @@ Add a sheet with the data you wante to visualize to the dashboard. Drag and drop
 
 Add one or several sheets with the data you want to visualize to the dashboard. Create a parameter starting with "ext_viz_*extension type*_sheetname" with the list of sheet names. Here, we are using the Radar extension so the parameter must contain "ext_viz_radar_sheetname" Drag and drop the Extension object into your dashboard. Select "Access Local Extensions" and choose the extension file (.trex). The extension will appear in your dashboard, displaying a window with a list of parameters. Select the parameter previously created.
 
-<video src="/media/extensions-parameter111.mp4" controls width="600">
+<video src={useBaseUrl('/media/extensions-parameter.mp4')} controls width="600">
   Your browser does not support the video tag.
 </video>
----

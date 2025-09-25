@@ -1,3 +1,4 @@
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Viz - Radar
 
@@ -43,27 +44,27 @@ You can change the following elements for the Radar:
 
 Watch this tutorial video to learn how to create a Radar chart with the Sample - Superstore datasource:
 
-<video src="/media/radar-viz-add-extension.mp4" controls width="800">
+<video src={useBaseUrl('/media/radar-viz-add-extension.mp4')} controls width="600">
   Your browser does not support the video tag. 
 </video>
 
 
 After adding the extension, add data to the Axis, Dimension and Measure mark cards.
 
-<video src="/media/radar-viz-display-graph.mp4" controls width="800">
+<video src={useBaseUrl('/media/radar-viz-display-graph.mp4')} controls width="600">
   Your browser does not support the video tag. 
 </video>
 
 
 You can further customize the Radar. In this example, a calculated field changes the minimum axis value. The background is set using the direct method, and the color is chosen from the Tableau palette.
 
-<video src="/media/radar-viz-custom.mp4" controls width="800">
+<video src={useBaseUrl('/media/radar-viz-custom.mp4')} controls width="600">
   Your browser does not support the video tag. 
 </video>
 
 
 Highlight part of the Radar by clicking a point. Click outside the Radar or on the highlighted point to remove the highlight.
-<video src="/media/radar-viz-actions.mp4" controls width="800">
+<video src={useBaseUrl('/media/radar-viz-actions.mp4')} controls width="600">
   Your browser does not support the video tag.
 </video>
 

@@ -1,3 +1,4 @@
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Viz - Sankey
 
@@ -41,26 +42,26 @@ Click the format extension button to customize the Sankey. Three methods are ava
 
 Watch this tutorial video to learn how to create a Sankey chart with the Sample - Superstore datasource:
 
-<video src="/media/sankey-viz-add-extension.mp4" controls width="800">
+<video src={useBaseUrl('/media/sankey-viz-add-extension.mp4')} controls width="600">
   Your browser does not support the video tag.
 </video>
 
 
 After adding the extension, add data to the Nodes and Value mark cards.
-<video src="/media/sankey-viz-display-graph.mp4" controls width="800">
+<video src={useBaseUrl('/media/sankey-viz-display-graph.mp4')} controls width="600">
   Your browser does not support the video tag.
 </video>
 
 
 You can further customize the Sankey. In this example, the background color is set by entering a value directly. The link color is set to source-target. The column palette is set to the Tableau palette Miller Stone. The link percentage is set to both, and the column percentage is set to true, by selecting values in the dropdown menu.
 
-<video src="/media/sankey-viz-custom.mp4" controls width="800">
+<video src={useBaseUrl('/media/sankey-viz-custom.mp4')} controls width="600">
   Your browser does not support the video tag.
 </video>
 
 
 Highlight part of the Sankey by clicking a node. Double-click a node to filter the Sankey and display only its links. Double-click the same node again to remove the filter.
 
-<video src="/media/sankey-viz-actions.mp4" controls width="800">
+<video src={useBaseUrl('/media/sankey-viz-actions.mp4')} controls width="600">
   Your browser does not support the video tag.
 </video>

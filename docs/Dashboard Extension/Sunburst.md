@@ -1,3 +1,4 @@
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Sunburst
 
@@ -64,25 +65,25 @@ To remove a filter created, select the corresponding line in the table by checki
 
 A sheet containing the required data must be created and added to the dashboard.
 
-<video src="//media/sunburst-display.mp4" controls width="800">
+<video src={useBaseUrl('/media/sunburst-display.mp4')} controls width="600">
   Your browser does not support the video tag.
 </video>
 
 You can further customize the Sunburst. In this example, the background color, color palette, and layer size are set by directly selecting values in the configuration window. The number of layers is controlled using a parameter.
 
-<video src="/media/sunburst-custom.mp4" controls width="800">
+<video src={useBaseUrl('/media/sunburst-custom.mp4')} controls width="600">
   Your browser does not support the video tag.
 </video>
 
 Single-clicking an element highlights the path and displays the corresponding percentage in the center. Double-clicking an element applies a filter. Double-clicking the center navigates to the upper level.
 
-<video src="/media/sunburst-action.mp4" controls width="800">
+<video src={useBaseUrl('/media/sunburst-action.mp4')} controls width="600">
   Your browser does not support the video tag.
 </video>
 
 To create a filter, click the filter icon. Select the target sheet, source field, and target field, then click Save. The filter is now active. Click a node (segment of the donut) to apply the filter to the target sheet. Hold Ctrl and click to select multiple elements.
 
-<video src="/media/sunburst-filter.mp4" controls width="800">
+<video src={useBaseUrl('/media/sunburst-filter.mp4')} controls width="600">
   Your browser does not support the video tag.
 </video>
 

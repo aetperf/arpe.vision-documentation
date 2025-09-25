@@ -1,4 +1,4 @@
-
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Radar
 
@@ -61,23 +61,21 @@ To delete a filter, check its row in the table and click Remove.
 
 Create a sheet with your data and add it to the dashboard. The sheet must have a column for dimensions and a row for the axis. Make sure the dataset is complete (no null values).
 
-<video src="/media/radar-display.mp4" controls width="800">
+<video src={useBaseUrl('/media/radar-display.mp4')} controls width="600">
   Your browser does not support the video tag.
 </video>
 
 You can further customize the Radar. In this example, the background color and the minimum of the scale are set directly by typing a value in the window. The data color is taken in the sheet.
 
 
-<video src="/media/radar-custom.mp4" controls width="800">
+<video src={useBaseUrl('/media/radar-custom.mp4')} controls width="600">
   Your browser does not support the video tag.
 </video>
 
 To create a filter, click the filter icon. Select the target sheet, source field, and target field, then click Save. The filter is now active. Click a dot to apply the filter. Hold Ctrl and click to select multiple elements.
 
-<video src="/media/radar-filter.mp4" controls width="800">
+<video src={useBaseUrl('/media/radar-filter.mp4')} controls width="600">
   Your browser does not support the video tag.
 </video>
-
----
 
 

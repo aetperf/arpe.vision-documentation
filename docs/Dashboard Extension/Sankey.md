@@ -1,4 +1,4 @@
-
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Sankey
 
@@ -63,26 +63,26 @@ To remove a filter created, select the corresponding line in the table by checki
 
 A sheet containing the required data must be created and added to the dashboard.
 
-<video src="/media/sankey-display.mp4" controls width="800">
+<video src={useBaseUrl('/media/sankey-display.mp4')} controls width="600">
   Your browser does not support the video tag.
 </video>
 
 You can further customize the Sankey. In this example, the link color is controlled with a parameter. The background color, column palette and column percentage are set directly in the configuration window.
 
-<video src="/media/sankey-custom.mp4" controls width="800">
+<video src={useBaseUrl('/media/sankey-custom.mp4')} controls width="600">
   Your browser does not support the video tag.
 </video>
 
 Clicking a node highlights the node's path. To remove the highlight, the selected node or an empty part of the graph is clicked. Double-clicking a node applies a filter to the node. To remove the filter, double-click the selected node or click the free filter button.
 
-<video src="/media/sankey-action.mp4" controls width="800">
+<video src={useBaseUrl('/media/sankey-action.mp4')} controls width="600">
   Your browser does not support the video tag.
 </video>
 
 
 To create a filter, click the filter icon. Select the target sheet, source field, and target field, then click Save. The filter is now active. Click a node to apply the filter to the target sheet. Hold Ctrl and click to select multiple elements.
 
-<video src="/media/sankey-filter.mp4" controls width="800">
+<video src={useBaseUrl('/media/sankey-filter.mp4')} controls width="600">
   Your browser does not support the video tag.
 </video>
 

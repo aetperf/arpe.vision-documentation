@@ -1,3 +1,4 @@
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Viz - Tree
 
@@ -48,33 +49,34 @@ Click the format extension button in the mark card to customize the Tree. Three 
 
 Watch this tutorial video to learn how to create a Tree chart with the Sample - Superstore datasource:
 
-<video src="/media/tree-viz-add-extension.mp4" controls width="800">
+<video src={useBaseUrl('/media/tree-viz-add-extension.mp4')} controls width="600">
   Your browser does not support the video tag. 
 </video>
 
 
 After adding the extension, add data to the Nodes mark cards.
-<video src="/media/tree-viz-display-graph.mp4" controls width="800">
+
+<video src={useBaseUrl('/media/tree-viz-display-graph.mp4')} controls width="600">
   Your browser does not support the video tag.
 </video>
 
 
 You can further customize the Tree. In this example, a calculated field changes the node color. Add the calculated field to the Detail mark card. Add the Sales measure to customize the tree width. The background is set using the direct method. Set the link color to "child."
 
-<video src="/media/tree-viz-custom.mp4" controls width="800">
+<video src={useBaseUrl('/media/tree-viz-custom.mp4')} controls width="600">
   Your browser does not support the video tag.
 </video>
 
 
 Highlight part of the Tree by clicking a node. Double-click a node to display its children.
 
-<video src="/media/tree-viz-actions.mp4" controls width="800">
+<video src={useBaseUrl('/media/tree-viz-actions.mp4')} controls width="600">
   Your browser does not support the video tag.
 </video>
 
 
 Watch this video to see how to display a radial tree and show the values of each node.
-<video src="/media/tree-viz-custom-further.mp4" controls width="800">
+<video src={useBaseUrl('/media/tree-viz-custom-further.mp4')} controls width="600">
   Your browser does not support the video tag.
 </video>
 
