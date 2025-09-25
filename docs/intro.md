@@ -2,46 +2,24 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Welcome to the Arpe.Vision extensions documentation! Here, you'll find comprehensive guides and tutorials to help you make the most of our powerful extensions. 
 
-## Getting Started
 
-Get started by **creating a new site**.
+There are two types of extensions available:
+ - **Dashboard extensions**: These extensions allow you to create and customize dashboards using the data from your sheets and parameters.
+  - **Viz extensions**: These extensions enable you to create advanced visualizations and charts based on the data from your dashboard.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+ Here are some examples of what you can achieve with our extensions:
+Radar           |  Sunburst          |  Tree          | 
+-------------------------|-------------------------|-------------------------|
+![radar](/media/example-radar.png)  |  ![sunburst](/media/example-sunburst.png)  |  ![tree](/media/example-tree.png)  |  
 
-### What you'll need
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+Sankey          |  Circular Sankey*   |
+-------------------------|-------------------------|
+![sankey](/media/example-sankey.png)  |  ![sankeyC](/media/example-sankeyC.png) *only available for dashboard extensions  |
 
-## Generate a new site
 
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+> **Last updated:** September, 2025

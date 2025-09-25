@@ -2,10 +2,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Viz - Radar
 
-> **Last updated:** July, 2025
-
 ### First Steps
-
 
 Add a dimension to the Axis mark card, add a dimension to the Dimension mark card, and a measure to the Measure mark card.
 

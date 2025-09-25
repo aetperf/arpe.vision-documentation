@@ -7,8 +7,6 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # General Information
 
-> **Last updated:** August, 2025
-
 ## General Information
 
 Each extension is available in two versions:

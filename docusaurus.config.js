@@ -12,7 +12,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 const config = {
   title: 'Extension Documentation',
   tagline: 'Which extension documentation do you want to see today?',
-  favicon: 'img/logo_AP_rvp_95.png',
+  favicon: 'img/logo_AP_rvb_95.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -80,7 +80,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/',
+      image: 'img/logo_AP_rvb_95.png',
       navbar: {
         title: 'Arpe.Vision.Documentation',
         logo: {
@@ -92,7 +92,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Guides',
           },
           //{ to: '/blog', label: 'Blog', position: 'left' },
           {
@@ -109,7 +109,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Guides',
                 to: '/docs/intro',
               },
             ],
@@ -140,12 +140,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/aetperf',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Arpe.vision, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

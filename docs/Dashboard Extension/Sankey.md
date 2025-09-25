@@ -2,8 +2,6 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Sankey
 
-> **Last updated:** July, 2025
-
 ### First Steps
 
 Choose the sheet (or parameter) you want to use to create the Sankey diagram. The displayed list shows sheets added to the dashboard. Click on the desired sheet name. Optionally, you can select a second sheet containing node customizations from the dropdown list. Then, click on save.

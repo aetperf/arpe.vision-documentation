@@ -2,9 +2,6 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Sunburst
 
-> **Last updated:** July, 2025
-
-
 ## Sunburst
 
 ### First Steps

@@ -3,10 +3,7 @@ sidebar_label: 'First steps'
 sidebar_position: 1
 ---
 
-
 # Viz Extension Documentation
-
-> **Last updated:** August, 2025
 
 ## General Information
 

@@ -3,8 +3,6 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Circular Sankey
 
-> **Last updated:** July, 2025
-
 ### First Steps
 
 Select the sheet or parameter you want to use for the Sankey diagram. The list shows all sheets added to the dashboard. Click the desired sheet name. Optionally, select a second sheet for node customizations from the dropdown. Click Save to confirm your selection.
@@ -43,8 +41,8 @@ Customizations may be applied to both links and nodes.
 
 #### Node Customization Options
 
-| Name                  | Default   | Accepted Values |
-|-----------------------|-----------|----------------|
+| Name                  | Default   | Accepted Values | Additional Informations |
+|-----------------------|-----------|----------------|--------------------------|
 | node positioning      | automatic | automatic, manual | If manual, node positions must be defined. |
 | node color propagation| none      | source, target, none | Defines how node colors are propagated from link's colors. |
 | node shape            | rectangle | rectangle, arrow | 

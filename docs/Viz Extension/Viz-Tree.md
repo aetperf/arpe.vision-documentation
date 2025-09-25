@@ -2,8 +2,6 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Viz - Tree
 
-> **Last updated:** July, 2025
-
 ### First Steps
 
 
