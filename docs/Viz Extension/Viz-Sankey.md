@@ -2,8 +2,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Viz - Sankey
 
-### First Steps
+Create dynamic flow diagrams in Tableau using the Sankey Chart extension to represent relationships and data movement between nodes.
 
+### First Steps
 
 Add dimensions to the Nodes mark card and a measure to the Value mark card to display a Sankey.
 
@@ -35,7 +36,7 @@ Click the format extension button to customize the Sankey. Three methods are ava
 | alignment       | justify | justify, left, right, center |
 | font size       | 10      | Numbers | The font size of column titles are always 4px larger than the selected font size. |
 
-#### Example
+#### Step by step tutorial
 
 
 Watch this tutorial video to learn how to create a Sankey chart with the Sample - Superstore datasource:
@@ -51,7 +52,7 @@ After adding the extension, add data to the Nodes and Value mark cards.
 </video>
 
 
-You can further customize the Sankey. In this example, the background color is set by entering a value directly. The link color is set to source-target. The column palette is set to the Tableau palette Miller Stone. The link percentage is set to both, and the column percentage is set to true, by selecting values in the dropdown menu.
+You can further customize the Sankey. In this example, the background color is set by entering a value directly. The link color is set to source-target. The column palette is set to the Tableau palette Miller Stone. The link percentage is set to both by using a parameter, and the column percentage is set to true, by selecting values in the dropdown menu.
 
 <video src={useBaseUrl('/media/sankey-viz-custom.mp4')} controls width="600">
   Your browser does not support the video tag.

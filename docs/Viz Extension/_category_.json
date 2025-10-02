@@ -1,0 +1,9 @@
+{
+    "label": "Viz Extension",
+    "position": 3,
+    "link": {
+        "type": "generated-index",
+        "title": "Viz Extension",
+        "description": "Learn how to use the different chart types available in the Viz Extension for Tableau."
+    }
+}

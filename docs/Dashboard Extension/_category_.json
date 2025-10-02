@@ -1,0 +1,9 @@
+{
+    "label": "Dashboard Extension",
+    "position": 2,
+    "link": {
+        "type": "generated-index",
+        "title": "Dashboard Extension",
+        "description": "Learn how to use the different chart types available in the Dashboard Extension for Tableau."
+    }
+}

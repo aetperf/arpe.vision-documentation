@@ -1,13 +1,13 @@
 ---
 sidebar_label: 'First steps'
 sidebar_position: 1
+description: "First steps to use the Dashboard Extension for Tableau."
+
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # General Information
-
-## General Information
 
 Each extension is available in two versions:
 

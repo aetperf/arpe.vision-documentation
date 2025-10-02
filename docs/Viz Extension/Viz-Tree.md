@@ -2,8 +2,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Viz - Tree
 
-### First Steps
+Display parent-child relationships in a clear hierarchical layout with the Tree Chart extension for Tableau.
 
+### First Steps
 
 Add dimensions to the Nodes mark cards. To customize the width of the tree, add a measure to the Detail mark card. See the customization options below.
 
@@ -43,12 +44,12 @@ Click the format extension button in the mark card to customize the Tree. Three 
 | hide inter/Mediate labels | false  | true, false |
 | display values        | false     | true, false |
 
-### Example
+### Step by step tutorial
 
 Watch this tutorial video to learn how to create a Tree chart with the Sample - Superstore datasource:
 
 <video src={useBaseUrl('/media/tree-viz-add-extension.mp4')} controls width="600">
-  Your browser does not support the video tag. 
+  Your browser does not support the video tag.
 </video>
 
 
@@ -59,7 +60,8 @@ After adding the extension, add data to the Nodes mark cards.
 </video>
 
 
-You can further customize the Tree. In this example, a calculated field changes the node color. Add the calculated field to the Detail mark card. Add the Sales measure to customize the tree width. The background is set using the direct method. Set the link color to "child."
+
+You can further customize the Tree. In this example, a calculated field is used to change the node color, and the width of the tree is customized by adding the Sales measure to the Detail mark card. The background color, the link color are defined directly in the extension settings.
 
 <video src={useBaseUrl('/media/tree-viz-custom.mp4')} controls width="600">
   Your browser does not support the video tag.

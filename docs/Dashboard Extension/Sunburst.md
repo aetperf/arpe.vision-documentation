@@ -2,7 +2,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Sunburst
 
-## Sunburst
+Explore hierarchical data structures using the Sunburst Chart extension, perfect for visualizing nested relationships in Tableau.
 
 ### First Steps
 

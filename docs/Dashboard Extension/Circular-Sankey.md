@@ -1,7 +1,9 @@
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-
 # Circular Sankey
+
+Visualize cyclic flows and feedback loops with the Circular Sankey Chart extension, providing a circular layout for enhanced readability.
 
 ### First Steps
 

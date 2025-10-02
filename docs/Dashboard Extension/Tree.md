@@ -2,6 +2,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Tree
 
+Display parent-child relationships in a clear hierarchical layout with the Tree Chart extension for Tableau.
+
 ### First Steps
 
 Select the sheet or parameter you want to use for the Tree diagram. The list shows all sheets added to the dashboard. Click the desired sheet name.

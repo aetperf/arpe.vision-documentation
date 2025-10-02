@@ -114,38 +114,43 @@ const config = {
               },
             ],
           },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              },
-            ],
-          },
+          /* {
+             title: 'Community',
+             items: [
+               {
+                 label: 'Stack Overflow',
+                 href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+               },
+               {
+                 label: 'Discord',
+                 href: 'https://discordapp.com/invite/docusaurus',
+               },
+               {
+                 label: 'X',
+                 href: 'https://x.com/docusaurus',
+               },
+             ],
+           },*/
           {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Linkedin',
+                to: 'https://www.linkedin.com/company/architecture-performance/posts/?feedView=all',
               },
               {
                 label: 'GitHub',
                 href: 'https://github.com/aetperf',
               },
+              {
+                label: 'Site',
+                href: 'https://www.architecture-performance.fr/',
+              },
+
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Arpe.vision, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Arpe.vision. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

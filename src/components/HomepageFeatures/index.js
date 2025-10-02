@@ -4,42 +4,67 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Radar',
+    Svg: require('@site/static/media/example-radar.png').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Visualize data in a circular layout<br />
+        Show relationships between different data points<br />
+        Ideal for displaying multi-dimensional data<br />
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Circular Sankey',
+    Svg: require('@site/static/media/example-sankeyC.png').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Illustrate flow and displays cycles within a system<br />
+        Show proportions of flow between different nodes<br />
+        Ideal for displaying energy, material, or cost transfers<br />
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Tree',
+    Svg: require('@site/static/media/example-tree.png').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Visualize hierarchical data structures<br />
+        Show parent-child relationships<br />
+        Ideal for displaying tree-like data<br />
       </>
     ),
   },
+  {
+    title: 'Sunburst',
+    Svg: require('@site/static/media/example-sunburst.png').default,
+    description: (
+      <>
+        Visualize hierarchical data in a radial layout<br />
+        Show proportions of categories within a whole<br />
+        Ideal for displaying multi-level data<br />
+      </>
+    ),
+  },
+  {
+    title: 'Sankey',
+    Svg: require('@site/static/media/example-sankey.png').default,
+    description: (
+      <>
+        Illustrate flow and connections between entities<br />
+        Show proportions of flow between different nodes<br />
+        Ideal for displaying energy, material, or cost transfers<br />
+      </>
+    ),
+  }
 ];
 
 function Feature({ Svg, title, description }) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <img src={Svg} alt={title} className={styles.featureSvg} />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
@@ -50,16 +75,24 @@ function Feature({ Svg, title, description }) {
 }
 
 export default function HomepageFeatures() {
+  const firstRow = FeatureList.slice(0, 3);
+  const secondRow = FeatureList.slice(3);
   return (
-    /* <section className={styles.features}>
-       <div className="container">
-         <div className="row">
-           {FeatureList.map((props, idx) => (
-             <Feature key={idx} {...props} />
-           ))}
-         </div>
-       </div>
-     </section>*/
-    <></>
+    <section className={styles.features}>
+      <div className="container">
+        <div className="row">
+          {firstRow.map((props, idx) => (
+            <Feature key={idx} {...props} />
+          ))}
+        </div>
+        {secondRow.length > 0 && (
+          <div className="row" style={{ justifyContent: 'center', display: 'flex' }}>
+            {secondRow.map((props, idx) => (
+              <Feature key={idx + 3} {...props} />
+            ))}
+          </div>
+        )}
+      </div>
+    </section>
   );
 }

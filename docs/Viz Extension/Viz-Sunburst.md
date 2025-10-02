@@ -2,8 +2,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Viz - Sunburst
 
-### First Steps
+Explore hierarchical data structures using the Sunburst Chart extension, perfect for visualizing nested relationships in Tableau.
 
+### First Steps
 
 Add a dimension to the Layer mark card and a measure to the Value mark card.
 
@@ -34,13 +35,13 @@ Click the format extension button in the mark card to customize the Sunburst. Th
 | rotate labels   | false   | false, all, first |
 | font size       | 10      | Numbers |  |
 
-### Example
+### Step by step tutorial
 
 Watch this tutorial video to learn how to create a Sunburst chart with the Sample - Superstore datasource:
 
 <video src={useBaseUrl('/media/sunburst-viz-add-extension.mp4')} controls width="600">
   Your browser does not support the video tag.
-</video>
+  </video>
 
 
 After adding the extension, add data to the Layer and Value mark cards.

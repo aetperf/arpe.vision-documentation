@@ -1,3 +1,7 @@
+---
+description: "Image catalog for the Circular Sankey chart"
+
+---
 # Circular Sankey - Image Catalog
 
 To have an image added automatically to a node of the Sankey, a field must contain the name corresponding to the icon you want to use. Then, the **add images** setting must be set to **From field values**. Finally, in the image window, the **Image field** must be set to the field containing the name of the icon.

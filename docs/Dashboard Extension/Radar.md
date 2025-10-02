@@ -1,7 +1,10 @@
+
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Radar
 
+Visualize multivariate data with our Radar Chart extension for Tableau, ideal for comparing multiple variables across categories.
 
 ### First Steps
 

@@ -2,6 +2,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Viz - Radar
 
+Visualize multivariate data with our Radar Chart extension for Tableau, ideal for comparing multiple variables across categories.
+
 ### First Steps
 
 Add a dimension to the Axis mark card, add a dimension to the Dimension mark card, and a measure to the Measure mark card.
@@ -36,7 +38,7 @@ You can change the following elements for the Radar:
 | highlight color | red     | HTML names, hexadecimal, rgb | Ex: LightBlue, #ADD8E6, rgb(173, 216, 230). |
 
 
-### Example
+### Step by step tutorial
 
 
 Watch this tutorial video to learn how to create a Radar chart with the Sample - Superstore datasource:
