@@ -22,4 +22,6 @@ Sankey          |  Circular Sankey*   |
 ![sankey](/media/example-sankey.png)  |  ![sankeyC](/media/example-sankeyC.png) *only available for dashboard extensions  |
 
 
+Our extensions are free to use on Tableau Desktop but require a license for Tableau Server and Tableau Online. You can find more information about licensing and pricing on our website.    
+
 > **Last updated:** September, 2025

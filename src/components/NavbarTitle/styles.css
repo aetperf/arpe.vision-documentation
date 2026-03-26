@@ -1,0 +1,13 @@
+.custom-navbar-title {
+  font-weight: bold;
+  font-size: 1.25rem;
+  display: inline-block;
+}
+
+.arpe-violet {
+  color: #8b5cf6; /* violet color */
+}
+
+[data-theme='dark'] .arpe-violet {
+  color: #a78bfa; /* lighter violet for dark mode */
+}

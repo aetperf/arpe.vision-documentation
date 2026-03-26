@@ -12,7 +12,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 const config = {
   title: 'Extension Documentation',
   tagline: 'Which extension documentation do you want to see today?',
-  favicon: 'img/logo_AP_rvb_95.png',
+  favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -80,12 +80,13 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/logo_AP_rvb_95.png',
+      image: 'img/logo.png',
       navbar: {
         title: 'Arpe.Vision.Documentation',
         logo: {
           alt: 'Arpe.Vision Documentation Logo',
-          src: 'img/logo_AP_rvb_95.png',
+          src: 'img/logo.png',
+          srcDark: 'img/logo_white.png',
         },
         items: [
           {
