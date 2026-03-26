@@ -82,7 +82,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/logo.png',
       navbar: {
-        title: 'Arpe.Vision.Documentation',
+        title: 'Arpe.Vision Documentation',
         logo: {
           alt: 'Arpe.Vision Documentation Logo',
           src: 'img/logo.png',
