@@ -1,7 +1,12 @@
+---
+sidebar_position: 2
+sidebar_label: 'Circular Sankey'
+title: 'Circular Sankey'
+---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Circular Sankey
+# <img src='/arpe.vision-documentation/img/circular_sankey.svg' style={{height:'1.2em', verticalAlign:'middle', marginRight:'0.4em'}} /> Circular Sankey
 
 Visualize cyclic flows and feedback loops with the Circular Sankey Chart extension, providing a circular layout for enhanced readability.
 
@@ -20,7 +25,7 @@ Sankey customization is performed via the settings button. Three customization m
 
 - **Direct**: Enter a value directly in the window.
 - **Parameter**: Select a parameter; its value defines the characteristic.
-- **Field**: Select a field in the sheet; its values define the element aspects.
+- **Field**: Select a field in the sheet; its values define the element aspects. To appear in the list, the field must be on the worksheet's **Rows**, **Columns**, or **Detail** shelf.
 
 Customizations may be applied to both links and nodes.
 
@@ -48,7 +53,7 @@ Customizations may be applied to both links and nodes.
 | node positioning      | automatic | automatic, manual | If manual, node positions must be defined. |
 | node color propagation| none      | source, target, none | Defines how node colors are propagated from link's colors. |
 | node shape            | rectangle | rectangle, arrow | 
-| add images            | none      | none, from file explorer, from file catalog, from field values | See [Image Catalog](./Image-Catalog.md) for available images. |
+| add images            | none      | none, from file explorer, from file catalog, from field values | See [Image Catalog](#image-catalog) section below for available images. |
 | node color            | color     | HTML names, hexadecimal, rgb | Ex: LightBlue, #ADD8E6, rgb(173, 216, 230). |
 | node palette          | none      | tableau 10, tableau 20, colorblind, seattle grays, traffic light, miller stone, superfishel stone, nuriel stone, jewel bright, summer, winter, green-orange-teal, red-blue-brown, purple-pink-gray, hue circle |
 | node alert            | alert     | true, false |  If true, node blinks in red |
@@ -84,7 +89,7 @@ To delete a filter, check its row in the table and click Remove.
 
 ### Add Images
 
-If you set the add images field to anything other than "none," a new button appears in the extension. Click it to open a window where you can map images to a field. Choose images from the file explorer, the file catalog, or field values. For field value mode, field values must match image names. Images must be under 20KB. Enable Dark mode to switch image color from black to white. You can set a default image in the first row; any undefined value uses the default. See the [Image Catalog](./Image-Catalog.md) for available images.
+If you set the add images field to anything other than "none," a new button appears in the extension. Click it to open a window where you can map images to a field. Choose images from the file explorer, the file catalog, or field values. For field value mode, field values must match image names (see [Image Catalog](#image-catalog) section below). Images must be under 20KB. Enable Dark mode to switch image color from black to white. You can set a default image in the first row; any undefined value uses the default.
 
 ### Node Sizing
 
@@ -134,3 +139,96 @@ Adjust node width and height using the horizontal and vertical + and - buttons.
   Your browser does not support the video tag.
 </video>
 
+---
+
+## Image Catalog
+
+To have an image added automatically to a node of the Sankey, a field must contain the name corresponding to the icon you want to use. Then, the **add images** setting must be set to **From field values**. Finally, in the image window, the **Image field** must be set to the field containing the name of the icon.
+
+### Industry Collection
+
+In the Industry collection, the following images exist in our catalog:
+
+| Icon | Name |
+|------|------|
+| ![factory](/media/Sankey-catalog/factory.svg) | factory |
+| ![manuf](/media/Sankey-catalog/manuf.svg) | manuf |
+| ![warehouse](/media/Sankey-catalog/warehouse.svg) | warehouse |
+| ![sales](/media/Sankey-catalog/sales.svg) | sales |
+| ![valve](/media/Sankey-catalog/valve.svg) | valve |
+| ![settings](/media/Sankey-catalog/settings.svg) | settings |
+| ![construction](/media/Sankey-catalog/construction.svg) | construction |
+| ![water_pump](/media/Sankey-catalog/water_pump.svg) | water_pump |
+
+### Health Collection
+
+In the Health collection, the following images exist in our catalog:
+
+| Icon | Name |
+|------|------|
+| ![science](/media/Sankey-catalog/science.svg) | science |
+| ![coronavirus](/media/Sankey-catalog/coronavirus.svg) | coronavirus |
+| ![brain](/media/Sankey-catalog/brain.svg) | brain |
+| ![genetics](/media/Sankey-catalog/genetics.svg) | genetics |
+| ![household_supplies](/media/Sankey-catalog/household_supplies.svg) | household_supplies |
+| ![pill](/media/Sankey-catalog/pill.svg) | pill |
+| ![radiology](/media/Sankey-catalog/radiology.svg) | radiology |
+| ![home_health](/media/Sankey-catalog/home_health.svg) | home_health |
+
+### IT Collection
+
+In the IT collection, the following images exist in our catalog:
+
+| Icon | Name |
+|------|------|
+| ![database](/media/Sankey-catalog/database.svg) | database |
+| ![finance](/media/Sankey-catalog/finance.svg) | finance |
+| ![WIFI](/media/Sankey-catalog/WIFI.svg) | WIFI |
+| ![cloud](/media/Sankey-catalog/cloud.svg) | cloud |
+| ![hard_drive](/media/Sankey-catalog/hard_drive.svg) | hard_drive |
+| ![join](/media/Sankey-catalog/join.svg) | join |
+| ![calcul](/media/Sankey-catalog/calcul.svg) | calcul |
+| ![save](/media/Sankey-catalog/save.svg) | save |
+
+### Energy Collection
+
+In the Energy collection, the following images exist in our catalog:
+
+| Icon | Name |
+|------|------|
+| ![elec](/media/Sankey-catalog/elec.svg) | elec |
+| ![battery](/media/Sankey-catalog/battery.svg) | battery |
+| ![heat](/media/Sankey-catalog/heat.svg) | heat |
+| ![gaz](/media/Sankey-catalog/gaz.svg) | gaz |
+| ![co2](/media/Sankey-catalog/co2.svg) | co2 |
+| ![plant](/media/Sankey-catalog/plant.svg) | plant |
+| ![sunny](/media/Sankey-catalog/sunny.svg) | sunny |
+| ![thermometer](/media/Sankey-catalog/thermometer.svg) | thermometer |
+| ![wind_power](/media/Sankey-catalog/wind_power.svg) | wind_power |
+| ![water_voc](/media/Sankey-catalog/water_voc.svg) | water_voc |
+
+### Others Collection
+
+In the Others collection, the following images exist in our catalog:
+
+| Icon | Name |
+|------|------|
+| ![trending_up](/media/Sankey-catalog/trending_up.svg) | trending_up |
+| ![trending_down](/media/Sankey-catalog/trending_down.svg) | trending_down |
+| ![recycling](/media/Sankey-catalog/recycling.svg) | recycling |
+| ![power](/media/Sankey-catalog/power.svg) | power |
+| ![account_balance](/media/Sankey-catalog/account_balance.svg) | account_balance |
+| ![biotech](/media/Sankey-catalog/biotech.svg) | biotech |
+| ![broom](/media/Sankey-catalog/broom.svg) | broom |
+| ![home_repair](/media/Sankey-catalog/home_repair.svg) | home_repair |
+| ![radar](/media/Sankey-catalog/radar.svg) | radar |
+| ![rocket](/media/Sankey-catalog/rocket.svg) | rocket |
+| ![route](/media/Sankey-catalog/route.svg) | route |
+| ![school](/media/Sankey-catalog/school.svg) | school |
+| ![suitcase](/media/Sankey-catalog/suitcase.svg) | suitcase |
+| ![computer](/media/Sankey-catalog/computer.svg) | computer |
+| ![smartphone](/media/Sankey-catalog/smartphone.svg) | smartphone |
+| ![storage](/media/Sankey-catalog/storage.svg) | storage |
+| ![sd_card](/media/Sankey-catalog/sd_card.svg) | sd_card |
+| ![traffic](/media/Sankey-catalog/traffic.svg) | traffic |
+| ![apartment](/media/Sankey-catalog/apartment.svg) | apartment |

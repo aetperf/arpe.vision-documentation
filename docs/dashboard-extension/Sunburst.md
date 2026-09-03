@@ -1,6 +1,12 @@
+---
+sidebar_position: 5
+sidebar_label: 'Sunburst'
+title: 'Sunburst'
+---
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Sunburst
+# <img src='/arpe.vision-documentation/img/sunburst.svg' style={{height:'1.2em', verticalAlign:'middle', marginRight:'0.4em'}} /> Sunburst
 
 Explore hierarchical data structures using the Sunburst Chart extension, perfect for visualizing nested relationships in Tableau.
 
@@ -18,7 +24,7 @@ Click the settings button to customize the Sunburst. Three methods are available
 
 - **Direct**: Enter a value directly in the window.
 - **Parameter**: Select a parameter; its value defines the characteristic.
-- **Field**: Select a field in the sheet; its values define the element aspects.
+- **Field**: Select a field in the sheet; its values define the element aspects. To appear in the list, the field must be on the worksheet's **Rows**, **Columns**, or **Detail** shelf.
 
 #### Sunburst Customization Options
 
@@ -66,7 +72,7 @@ A sheet containing the required data must be created and added to the dashboard.
   Your browser does not support the video tag.
 </video>
 
-You can further customize the Sunburst. In this example, the background color, color palette, and layer size are set by directly selecting values in the configuration window. The number of layers is controlled using a parameter.
+You can further customize the Sunburst. In this example, the layer's size is set by directly selecting values in the configuration window. The data color is taken from the sheet. The number of layers is controlled using a parameter.
 
 <video src={useBaseUrl('/media/sunburst-custom.mp4')} controls width="600">
   Your browser does not support the video tag.

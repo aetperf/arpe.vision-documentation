@@ -1,6 +1,12 @@
+---
+sidebar_position: 3
+sidebar_label: 'Sankey'
+title: 'Sankey'
+---
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Sankey
+# <img src='/arpe.vision-documentation/img/sankey.svg' style={{height:'1.2em', verticalAlign:'middle', marginRight:'0.4em'}} /> Sankey
 
 Create dynamic flow diagrams in Tableau using the Sankey Chart extension to represent relationships and data movement between nodes.
 
@@ -18,7 +24,7 @@ Sankey customization is performed via the settings button. Three customization m
 
 - **Direct**: A value is entered directly into the configuration window.
 - **Parameter**: A parameter is selected, and its value is used to define the characteristic.
-- **Field**: A field in the sheet is selected, and its values are used to define element aspects.
+- **Field**: A field in the sheet is selected, and its values are used to define element aspects. To appear in the list, the field must be on the worksheet's **Rows**, **Columns**, or **Detail** shelf.
 
 #### Sankey Customization Options
 
@@ -67,7 +73,7 @@ A sheet containing the required data must be created and added to the dashboard.
   Your browser does not support the video tag.
 </video>
 
-You can further customize the Sankey. In this example, the link color is controlled with a parameter. The background color, column palette and column percentage are set directly in the configuration window.
+You can further customize the Sankey. In this example, the link color is controlled with a parameter. The highlight color, column palette and column percentage are set directly in the configuration window.
 
 <video src={useBaseUrl('/media/sankey-custom.mp4')} controls width="600">
   Your browser does not support the video tag.

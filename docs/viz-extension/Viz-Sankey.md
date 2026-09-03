@@ -1,6 +1,11 @@
+---
+sidebar_label: 'Sankey'
+title: 'Viz - Sankey'
+---
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Viz - Sankey
+# <img src='/arpe.vision-documentation/img/sankey.svg' style={{height:'1.2em', verticalAlign:'middle', marginRight:'0.4em'}} /> Viz - Sankey
 
 Create dynamic flow diagrams in Tableau using the Sankey Chart extension to represent relationships and data movement between nodes.
 
@@ -21,7 +26,7 @@ Click the format extension button to customize the Sankey. Three methods are ava
 
 - **Direct**: Enter a value directly in the window.
 - **Parameter**: Select a parameter; its value defines the characteristic.
-- **Field**: Select a field in the sheet; its values define the element aspects.
+- **Field**: Select a field in the sheet; its values define the element aspects. To appear in the list, add the field to the **Detail** shelf on the Marks card.
 
 | Name            | Default | Accepted Values | Additional Information |
 |-----------------|---------|----------------|-------------------------|
@@ -52,7 +57,7 @@ After adding the extension, add data to the Nodes and Value mark cards.
 </video>
 
 
-You can further customize the Sankey. In this example, the background color is set by entering a value directly. The link color is set to source-target. The column palette is set to the Tableau palette Miller Stone. The link percentage is set to both by using a parameter, and the column percentage is set to true, by selecting values in the dropdown menu.
+You can further customize the Sankey. In this example, the highlight color is set by entering a value directly. The link color is controlled by a parameter. The column palette is set to the Tableau palette Nurial Stone.
 
 <video src={useBaseUrl('/media/sankey-viz-custom.mp4')} controls width="600">
   Your browser does not support the video tag.

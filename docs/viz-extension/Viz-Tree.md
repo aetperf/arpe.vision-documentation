@@ -1,6 +1,11 @@
+---
+sidebar_label: 'Tree'
+title: 'Viz - Tree'
+---
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Viz - Tree
+# <img src='/arpe.vision-documentation/img/tree.svg' style={{height:'1.2em', verticalAlign:'middle', marginRight:'0.4em'}} /> Viz - Tree
 
 Display parent-child relationships in a clear hierarchical layout with the Tree Chart extension for Tableau.
 
@@ -21,7 +26,7 @@ Click the format extension button in the mark card to customize the Tree. Three 
 
 - **Direct**: Enter a value directly in the window.
 - **Parameter**: Select a parameter; its value defines the characteristic.
-- **Field**: Select a field in the sheet; its values define the element aspects.
+- **Field**: Select a field in the sheet; its values define the element aspects. To appear in the list, add the field to the **Detail** shelf on the Marks card.
 
 | Name                  | Default   | Accepted Values | Additional Information |
 |-----------------------|-----------|----------------| -------------------------|
@@ -61,7 +66,7 @@ After adding the extension, add data to the Nodes mark cards.
 
 
 
-You can further customize the Tree. In this example, a calculated field is used to change the node color, and the width of the tree is customized by adding the Sales measure to the Detail mark card. The background color, the link color are defined directly in the extension settings.
+You can further customize the Tree. In this example, field added to the Detail mark card controls the node color and the width. The link color and the size of the labels are defined directly in the extension settings.
 
 <video src={useBaseUrl('/media/tree-viz-custom.mp4')} controls width="600">
   Your browser does not support the video tag.

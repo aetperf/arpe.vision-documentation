@@ -1,13 +1,15 @@
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import Link from '@docusaurus/Link';
+import ThemedImage from '@theme/ThemedImage';
 import styles from './styles.module.css';
 
 const FeatureList = [
   {
     title: 'Radar',
     Svg: require('@site/static/media/example-radar.png').default,
-    link: '/docs/Dashboard Extension/Radar',
+    SvgDark: require('@site/static/media/example-radar-dark.png').default,
+    link: '/docs/dashboard-extension/Radar',
     description: (
       <>
         Visualize data in a circular layout<br />
@@ -19,7 +21,8 @@ const FeatureList = [
   {
     title: 'Circular Sankey',
     Svg: require('@site/static/media/example-sankeyC.png').default,
-    link: '/docs/Dashboard Extension/Circular-Sankey',
+    SvgDark: require('@site/static/media/example-sankeyC-dark.png').default,
+    link: '/docs/dashboard-extension/Circular-Sankey',
     description: (
       <>
         Illustrate flow and displays cycles within a system<br />
@@ -31,7 +34,8 @@ const FeatureList = [
   {
     title: 'Tree',
     Svg: require('@site/static/media/example-tree.png').default,
-    link: '/docs/Dashboard Extension/Tree',
+    SvgDark: require('@site/static/media/example-tree-dark.png').default,
+    link: '/docs/dashboard-extension/Tree',
     description: (
       <>
         Visualize hierarchical data structures<br />
@@ -43,7 +47,8 @@ const FeatureList = [
   {
     title: 'Sunburst',
     Svg: require('@site/static/media/example-sunburst.png').default,
-    link: '/docs/Dashboard Extension/Sunburst',
+    SvgDark: require('@site/static/media/example-sunburst-dark.png').default,
+    link: '/docs/dashboard-extension/Sunburst',
     description: (
       <>
         Visualize hierarchical data in a radial layout<br />
@@ -55,7 +60,8 @@ const FeatureList = [
   {
     title: 'Sankey',
     Svg: require('@site/static/media/example-sankey.png').default,
-    link: '/docs/Dashboard Extension/Sankey',
+    SvgDark: require('@site/static/media/example-sankey-dark.png').default,
+    link: '/docs/dashboard-extension/Sankey',
     description: (
       <>
         Illustrate flow and connections between entities<br />
@@ -66,12 +72,16 @@ const FeatureList = [
   }
 ];
 
-function Feature({ Svg, title, description, link }) {
+function Feature({ Svg, SvgDark, title, description, link }) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
         <Link to={link}>
-          <img src={Svg} alt={title} className={styles.featureSvg} />
+          <ThemedImage
+            alt={title}
+            sources={{ light: Svg, dark: SvgDark ?? Svg }}
+            className={styles.featureSvg}
+          />
         </Link>
       </div>
       <div className="text--center padding-horiz--md">

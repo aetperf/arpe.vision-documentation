@@ -19,13 +19,13 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/Dashboard%20Extension/General">
+            to="/docs/dashboard-extension/General">
             Dashboard Extension
           </Link>
           &nbsp;&nbsp;
           <Link
             className="button button--secondary button--lg"
-            to="/docs/Viz%20Extension/Documentation-Viz">
+            to="/docs/viz-extension/Documentation-Viz">
             Viz Extension
           </Link>
 

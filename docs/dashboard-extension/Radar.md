@@ -1,8 +1,12 @@
-
+---
+sidebar_position: 4
+sidebar_label: 'Radar'
+title: 'Radar'
+---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Radar
+# <img src='/arpe.vision-documentation/img/radar.svg' style={{height:'1.2em', verticalAlign:'middle', marginRight:'0.4em'}} /> Radar
 
 Visualize multivariate data with our Radar Chart extension for Tableau, ideal for comparing multiple variables across categories.
 
@@ -20,7 +24,7 @@ Click the settings button to customize the Radar. Three methods are available:
 
 - **Direct**: Enter a value directly in the window.
 - **Parameter**: Select a parameter; its value defines the characteristic.
-- **Field**: Select a field in the sheet; its values define the element aspects.
+- **Field**: Select a field in the sheet; its values define the element aspects. To appear in the list, the field must be on the worksheet's **Rows**, **Columns**, or **Detail** shelf.
 
 #### Radar Customization Options
 
@@ -66,7 +70,7 @@ Create a sheet with your data and add it to the dashboard. The sheet must have a
   Your browser does not support the video tag.
 </video>
 
-You can further customize the Radar. In this example, the background color and the minimum of the scale are set directly by typing a value in the window. The data color is taken in the sheet.
+You can further customize the Radar. In this example, the minimum of the scale and the highlight color are set directly by typing a value in the window. The data color is taken in the sheet.
 
 
 <video src={useBaseUrl('/media/radar-custom.mp4')} controls width="600">

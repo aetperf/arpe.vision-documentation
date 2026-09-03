@@ -2,12 +2,13 @@
 sidebar_label: 'First steps'
 sidebar_position: 1
 description: "First steps to use the Dashboard Extension for Tableau."
-
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# General Information
+# First steps
+
+### Notes
 
 Each extension is available in two versions:
 
@@ -16,6 +17,9 @@ Each extension is available in two versions:
 
 The TREX file name ends with either Sheet or Param to indicate the version.
 
+### Prerequisites
+
+Download the extension files from our website. 
 
 ### Installation
 
@@ -23,7 +27,7 @@ To install an extension, drag and drop the Extension object into your dashboard.
 
 ![dashboard object image](/media/extensions.png)
 
-Select "Access Local Extensions" and choose the extension file (.trex). 
+Select "Access Local Extensions" and choose the extension file previously downloaded (.trex).
 
 ![access local extensions](/media/access_local_extension.png)
  
@@ -31,14 +35,18 @@ The extension will appear in your dashboard, displaying a window with a list of 
 
 ### Interactivity
 
-Four icons are rendered at the top right of each extension:
+Five icons are rendered at the top right of each extension:
 
 ![screenshot of the extensions icons](/media/icons.png)
 
+(from right to left)
+- **Arrow icon**: Hides the icons and displays a discrete menu icon: ![screenshot of the menu icon](/media/menu.png)
 - **Window icon**: Opens the window for sheet or parameter selection.
 - **Reload icon**: Reloads the extension.
 - **Settings icon**: Opens the settings window for customizing the extension.
 - **Filter icon**: Opens the filter configuration window, allowing you to create filters on other sheets in the dashboard when you click within the extension.
+
+Once the extension is configured, the icons become grey to be less intrusive. 
 
 **Interactions:**
 
@@ -55,7 +63,7 @@ Four icons are rendered at the top right of each extension:
 
 #### Sheet version 
 
-Add a sheet with the data you wante to visualize to the dashboard. Drag and drop the Extension object into your dashboard. Select "Access Local Extensions" and choose the extension file (.trex). The extension will appear in your dashboard, displaying a window with a list of sheets. select the sheet previously added to the dashboard.
+Add a sheet with the data you want to visualize to the dashboard. Drag and drop the Extension object into your dashboard. Select "Access Local Extensions" and choose the extension file (.trex). The extension will appear in your dashboard, displaying a window with a list of sheets. select the sheet previously added to the dashboard.
 
 <video src={useBaseUrl('/media/radar-display.mp4')} controls width="600">
   Your browser does not support the video tag.

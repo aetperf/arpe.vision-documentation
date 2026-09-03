@@ -1,0 +1,86 @@
+<svg width="280" height="280" viewBox="0 0 280 280" xmlns="http://www.w3.org/2000/svg" role="img" style="">
+  <title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Sunburst Chart Icon</title>
+
+  <defs>
+    <clipPath id="sq"><rect x="12" y="12" width="256" height="256" rx="28"/></clipPath>
+  </defs>
+
+  <rect x="12" y="12" width="256" height="256" rx="28" fill="#EEF0FA" style="fill:rgb(238, 240, 250);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <g clip-path="url(#sq)" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+    <!--
+      2 anneaux concentriques
+      Anneau 1 (intérieur) : r=52 → 82   — 3 segments
+      Anneau 2 (extérieur) : r=86 → 116  — 6 segments
+      Centre : 140,140
+
+      Couleurs :
+      - Violet      rgb(93,108,192)
+      - Vert        rgb(29,158,117)
+      - Violet clair rgb(180,188,228)
+
+      Angles :
+      Violet       : 0°   → 120°
+      Vert         : 120° → 240°
+      Violet clair : 240° → 360°
+
+      Points clés :
+      r=52:  0°→(140,88)  120°→(185,166)  240°→(95,166)
+      r=82:  0°→(140,58)  120°→(211,181)  240°→(69,181) [approx: 140+82*sin, 140-82*cos]
+             0°  : (140, 58)
+             60° : (140+82*.866, 140-82*.5) = (211, 99)
+             120°: (140+82*.866, 140+82*.5) = (211, 181)
+             180°: (140, 222)
+             240°: (140-82*.866, 140+82*.5) = (69, 181)
+             300°: (140-82*.866, 140-82*.5) = (69, 99)
+      r=116: 0°  : (140, 24)
+             60° : (140+116*.866, 140-116*.5) = (240, 82)
+             120°: (140+116*.866, 140+116*.5) = (240, 198)
+             180°: (140, 256)
+             240°: (140-116*.866, 140+116*.5) = (40, 198)
+             300°: (140-116*.866, 140-116*.5) = (40, 82)
+    -->
+
+    <!-- ════ ANNEAU 1 : r=52→82 ════ -->
+
+    <!-- Violet 0°→120° -->
+    <path d="M140,102 A38,38 0 0,1 173,159 L206,178 A76,76 0 0,0 140,64 Z" fill="rgb(93,108,192)" fill-opacity="0.90" stroke="#EEF0FA" stroke-width="2" style="fill:rgb(93, 108, 192);stroke:rgb(238, 240, 250);color:rgb(0, 0, 0);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+    <!-- Vert 120°→240° -->
+    <path d="M173,159 A38,38 0 0,1 107,159 L74,178 A76,76 0 0,0 206,178 Z" fill="rgb(29,158,117)" fill-opacity="0.90" stroke="#EEF0FA" stroke-width="2" style="fill:rgb(29, 158, 117);stroke:rgb(238, 240, 250);color:rgb(0, 0, 0);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+    <!-- Violet clair 240°→360° -->
+    <path d="M107,159 A38,38 0 0,1 140,102 L140,64 A76,76 0 0,0 74,178 Z" fill="rgb(180,188,228)" fill-opacity="0.95" stroke="#EEF0FA" stroke-width="2" style="fill:rgb(180, 188, 228);stroke:rgb(238, 240, 250);color:rgb(0, 0, 0);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+
+    <!-- ════ ANNEAU 2 : r=86→116, 6 segments ════ -->
+
+    <!-- Violet seg A: 0°→60° -->
+    <path d="M140,62 A78,78 0 0,1 208,101 L240,82 A116,116 0 0,0 140,24 Z" fill="rgb(93,108,192)" fill-opacity="0.80" stroke="#EEF0FA" stroke-width="2" style="fill:rgb(93, 108, 192);stroke:rgb(238, 240, 250);color:rgb(0, 0, 0);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+    <!-- Violet seg B: 60°→120° -->
+    <path d="M208,101 A78,78 0 0,1 208,179 L240,198 A116,116 0 0,0 240,82 Z" fill="rgb(93,108,192)" fill-opacity="0.80" stroke="#EEF0FA" stroke-width="2" style="fill:rgb(93, 108, 192);stroke:rgb(238, 240, 250);color:rgb(0, 0, 0);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+    <!-- Vert seg A: 120°→160° -->
+    <path d="M208,179 A78,78 0 0,1 167,213 L180,249 A116,116 0 0,0 240,198 Z" fill="rgb(29,158,117)" fill-opacity="0.80" stroke="#EEF0FA" stroke-width="2" style="fill:rgb(29, 158, 117);stroke:rgb(238, 240, 250);color:rgb(0, 0, 0);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+    <!-- Vert seg B: 160°→200° -->
+    <path d="M167,213 A78,78 0 0,1 113,213 L100,249 A116,116 0 0,0 180,249 Z" fill="rgb(29,158,117)" fill-opacity="0.80" stroke="#EEF0FA" stroke-width="2" style="fill:rgb(29, 158, 117);stroke:rgb(238, 240, 250);color:rgb(0, 0, 0);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+    <!-- Vert seg C: 200°→240° -->
+    <path d="M113,213 A78,78 0 0,1 72,179 L40,198 A116,116 0 0,0 100,249 Z" fill="rgb(29,158,117)" fill-opacity="0.80" stroke="#EEF0FA" stroke-width="2" style="fill:rgb(29, 158, 117);stroke:rgb(238, 240, 250);color:rgb(0, 0, 0);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+    <!-- Violet clair seg A: 240°→300° -->
+    <path d="M72,179 A78,78 0 0,1 72,101 L40,82 A116,116 0 0,0 40,198 Z" fill="rgb(180,188,228)" fill-opacity="0.90" stroke="#EEF0FA" stroke-width="2" style="fill:rgb(180, 188, 228);stroke:rgb(238, 240, 250);color:rgb(0, 0, 0);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+    <!-- Violet clair seg B: 300°→360° -->
+    <path d="M72,101 A78,78 0 0,1 140,62 L140,24 A116,116 0 0,0 40,82 Z" fill="rgb(180,188,228)" fill-opacity="0.90" stroke="#EEF0FA" stroke-width="2" style="fill:rgb(180, 188, 228);stroke:rgb(238, 240, 250);color:rgb(0, 0, 0);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+    <!-- Trou central -->
+    <circle cx="140" cy="140" r="35" fill="#EEF0FA" style="fill:rgb(238, 240, 250);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <!-- Point central -->
+    <circle cx="140" cy="140" r="4" fill="rgb(93,108,192)" style="fill:rgb(93, 108, 192);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  </g>
+
+  <rect x="12" y="12" width="256" height="256" rx="28" fill="none" stroke="rgb(93,108,192)" stroke-width="1.5" opacity="0.25" style="fill:none;stroke:rgb(93, 108, 192);color:rgb(0, 0, 0);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.25;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+</svg>

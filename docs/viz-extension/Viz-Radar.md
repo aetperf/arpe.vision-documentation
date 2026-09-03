@@ -1,6 +1,11 @@
+---
+sidebar_label: 'Radar'
+title: 'Viz - Radar'
+---
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Viz - Radar
+# <img src='/arpe.vision-documentation/img/radar.svg' style={{height:'1.2em', verticalAlign:'middle', marginRight:'0.4em'}} /> Viz - Radar
 
 Visualize multivariate data with our Radar Chart extension for Tableau, ideal for comparing multiple variables across categories.
 
@@ -23,7 +28,7 @@ Click the format extension button in the mark card to customize the Radar. Three
 
 - **Direct**: Enter a value directly in the window.
 - **Parameter**: Select a parameter; its value defines the characteristic.
-- **Field**: Select a field in the sheet; its values define the element aspects.
+- **Field**: Select a field in the sheet; its values define the element aspects. To appear in the list, add the field to the **Detail** shelf on the Marks card.
 
 
 You can change the following elements for the Radar:
@@ -55,7 +60,7 @@ After adding the extension, add data to the Axis, Dimension and Measure mark car
 </video>
 
 
-You can further customize the Radar. In this example, a calculated field changes the minimum axis value. The background is set using the direct method, and the color is chosen from the Tableau palette.
+You can further customize the Radar. In this example, a calculated field changes the color of the Radar. The scale min is directly set in the window.
 
 <video src={useBaseUrl('/media/radar-viz-custom.mp4')} controls width="600">
   Your browser does not support the video tag. 

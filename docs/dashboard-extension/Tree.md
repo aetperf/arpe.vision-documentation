@@ -1,6 +1,12 @@
+---
+sidebar_position: 6
+sidebar_label: 'Tree'
+title: 'Tree'
+---
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Tree
+# <img src='/arpe.vision-documentation/img/tree.svg' style={{height:'1.2em', verticalAlign:'middle', marginRight:'0.4em'}} /> Tree
 
 Display parent-child relationships in a clear hierarchical layout with the Tree Chart extension for Tableau.
 
@@ -18,7 +24,7 @@ Click the settings button to customize the Tree. Three methods are available:
 
 - **Direct**: Enter a value directly in the window.
 - **Parameter**: Select a parameter; its value defines the characteristic.
-- **Field**: Select a field in the sheet; its values define the element aspects.
+- **Field**: Select a field in the sheet; its values define the element aspects. To appear in the list, the field must be on the worksheet's **Rows**, **Columns**, or **Detail** shelf.
 
 #### Tree Customization Options
 
@@ -75,7 +81,7 @@ Create a sheet with your data and add it to the dashboard.
   Your browser does not support the video tag.
 </video>
 
-You can further customize the Tree by clicking on the customisation button. In this example, the background color is controlled with a parameter. The width and data color are taken from the sheet. The link color and proportional labels are set directly in the window.
+You can further customize the Tree by clicking on the customisation button. In this example, the width and data color are taken from the sheet. The link color and proportional labels are set directly in the window.
 
 <video src={useBaseUrl('/media/tree-custom.mp4')} controls width="600">
   Your browser does not support the video tag.

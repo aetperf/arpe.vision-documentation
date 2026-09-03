@@ -1,6 +1,11 @@
+---
+sidebar_label: 'Sunburst'
+title: 'Viz - Sunburst'
+---
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Viz - Sunburst
+# <img src='/arpe.vision-documentation/img/sunburst.svg' style={{height:'1.2em', verticalAlign:'middle', marginRight:'0.4em'}} /> Viz - Sunburst
 
 Explore hierarchical data structures using the Sunburst Chart extension, perfect for visualizing nested relationships in Tableau.
 
@@ -21,7 +26,7 @@ Click the format extension button in the mark card to customize the Sunburst. Th
 
 - **Direct**: Enter a value directly in the window.
 - **Parameter**: Select a parameter; its value defines the characteristic.
-- **Field**: Select a field in the sheet; its values define the element aspects.
+- **Field**: Select a field in the sheet; its values define the element aspects. To appear in the list, add the field to the **Detail** shelf on the Marks card.
 
 | Name            | Default | Accepted Values | Additional Information |
 |-----------------|---------|----------------|-------------------------|
@@ -51,7 +56,7 @@ After adding the extension, add data to the Layer and Value mark cards.
 </video>
 
 
-You can further customize the Sunburst. In this example, the background is set by entering a value directly. A parameter customizes the number of layers. The palette, layer size, percentage, and label rotation are set by selecting values in the dropdown menu.
+You can further customize the Sunburst. In this example, the color of the Sunburst is controlled by field adde in the detail mark. A parameter customizes the number of layers. The layer size and label rotation are set by selecting values in the dropdown menu.
 
 <video src={useBaseUrl('/media/sunburst-viz-custom.mp4')} controls width="600">
   Your browser does not support the video tag.
