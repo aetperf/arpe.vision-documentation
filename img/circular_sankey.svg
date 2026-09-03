@@ -1,0 +1,92 @@
+<svg width="280" height="280" viewBox="0 0 280 280" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Circular Sankey Chart Icon</title>
+  <desc>Icône Sankey circulaire avec nœuds rectangulaires et cycle de rétroaction</desc>
+
+  <defs>
+    <clipPath id="frame"><rect x="12" y="12" width="256" height="256" rx="28"/></clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect x="12" y="12" width="256" height="256" rx="28" fill="#EEF0FA"/>
+
+  <g clip-path="url(#frame)">
+    <g transform="translate(10,-19)">
+
+    <!--
+      Layout (5 nodes with a cycle):
+      N1 (left)       x=44   y=60   h=70   violet
+      N2 (top-mid)    x=112  y=50   h=55   violet
+      N3 (right)      x=200  y=55   h=90   violet
+      N4 (bot-mid)    x=112  y=165  h=55   light violet
+      N5 (bot-right)  x=200  y=175  h=50   green
+
+      Flows:
+      N1→N2 (violet)
+      N1→N4 (light violet)
+      N2→N3 (violet)
+      N4→N3 (light violet)
+      N4→N5 (green)
+      N3→N1 CYCLE (green, loops around bottom)
+    -->
+
+    <!-- ══ FLOW RIBBONS ══ -->
+
+    <!-- N1→N2 (violet, top portion) -->
+    <path d="M60,60 C86,60 86,50 112,50
+             L112,85 C86,85 86,95 60,95 Z"
+          fill="rgb(93,108,192)" fill-opacity="0.30"/>
+
+    <!-- N1→N4 (light violet, bottom portion of N1) -->
+    <path d="M60,100 C86,110 86,160 112,165
+             L112,200 C86,195 86,135 60,130 Z"
+          fill="rgb(180,188,228)" fill-opacity="0.28"/>
+
+    <!-- N2→N3 (violet, right flow) -->
+    <path d="M128,50 C160,50 170,55 200,55
+             L200,105 C170,105 160,85 128,85 Z"
+          fill="rgb(93,108,192)" fill-opacity="0.30"/>
+
+    <!-- N4→N3 (light violet, diagonal up-right) -->
+    <path d="M128,165 C160,160 170,130 200,115
+             L200,145 C170,155 160,185 128,190 Z"
+          fill="rgb(180,188,228)" fill-opacity="0.25"/>
+
+    <!-- N4→N5 (green, right flow) -->
+    <path d="M128,195 C160,200 170,180 200,178
+             L200,210 C170,212 160,220 128,215 Z"
+          fill="rgb(29,158,117)" fill-opacity="0.35"/>
+
+    <!-- ══ CYCLE: N5→N1 (green, U-shape from bottom of N5 to bottom of N1) ══ -->
+    <!-- N5: x=200..216, y=175..225 | N1: x=44..60, y=60..130 -->
+    <path d="M216,225 L216,248 C216,262 206,268 185,268
+             L80,268 C58,268 44,260 44,242
+             L44,130
+             L60,130
+             L60,242 C60,252 66,258 80,258
+             L185,258 C196,258 200,254 200,245
+             L200,225 Z"
+          fill="rgb(29,158,117)" fill-opacity="0.38"/>
+
+    <!-- ══ NODES (rounded rectangles, no icons, no text) ══ -->
+
+    <!-- N1 (left) - violet -->
+    <rect x="44" y="60" width="16" height="70" rx="3" fill="rgb(93,108,192)"/>
+
+    <!-- N2 (top-mid) - violet -->
+    <rect x="112" y="50" width="16" height="55" rx="3" fill="rgb(93,108,192)"/>
+
+    <!-- N3 (right) - violet -->
+    <rect x="200" y="55" width="16" height="90" rx="3" fill="rgb(93,108,192)"/>
+
+    <!-- N4 (bot-mid) - light violet -->
+    <rect x="112" y="165" width="16" height="55" rx="3" fill="rgb(180,188,228)"/>
+
+    <!-- N5 (bot-right) - green -->
+    <rect x="200" y="175" width="16" height="50" rx="3" fill="rgb(29,158,117)"/>
+
+    </g>
+  </g>
+
+  <!-- Border -->
+  <rect x="12" y="12" width="256" height="256" rx="28" fill="none" stroke="rgb(93,108,192)" stroke-width="1.5" opacity="0.25"/>
+</svg>

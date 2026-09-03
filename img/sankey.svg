@@ -1,0 +1,72 @@
+<svg width="280" height="280" viewBox="0 0 280 280" xmlns="http://www.w3.org/2000/svg" role="img" style="">
+  <title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Sankey Chart Icon</title>
+  <desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Icône Sankey avec 3 nœuds source, 2 nœuds intermédiaires, 2 nœuds cibles</desc>
+
+  <defs>
+    <clipPath id="sq"><rect x="12" y="12" width="256" height="256" rx="28"/></clipPath>
+  </defs>
+
+  <rect x="12" y="12" width="256" height="256" rx="28" fill="#EEF0FA" style="fill:rgb(238, 240, 250);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <g clip-path="url(#sq)" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+    <!--
+      Layout :
+      Col A (x=44):  3 nœuds source
+        A1 violet  y=50  h=60
+        A2 vert    y=120 h=50
+        A3 violet clair y=190 h=40
+
+      Col B (x=132): 2 nœuds intermédiaires
+        B1 violet  y=44  h=90
+        B2 vert    y=146 h=70
+
+      Col C (x=220): 2 nœuds cibles
+        C1 violet  y=50  h=110
+        C2 vert    y=172 h=58
+
+      Largeur nœuds : 16px
+      Rubans = paths cubiques entre les nœuds
+    -->
+
+    <!-- ── RUBANS A→B ── -->
+
+    <!-- A1→B1 (violet, gros flux) -->
+    <path d="M60,50 C96,50 96,44 132,44&#10;             L132,108 C96,108 96,110 60,110 Z" fill="rgb(93,108,192)" fill-opacity="0.30" style="fill:rgb(93, 108, 192);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+    <!-- A2→B1 (vert→violet, flux moyen) -->
+    <path d="M60,120 C96,120 96,108 132,108&#10;             L132,134 C96,134 96,148 60,155 Z" fill="rgb(180,188,228)" fill-opacity="0.28" style="fill:rgb(180, 188, 228);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+    <!-- A2→B2 (vert, flux petit) -->
+    <path d="M60,155 C96,155 96,158 132,158&#10;             L132,190 C96,190 96,170 60,170 Z" fill="rgb(180,188,228)" fill-opacity="0.22" style="fill:rgb(180, 188, 228);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+    <!-- A3→B2 (violet clair, flux moyen) -->
+    <path d="M60,190 C96,190 96,190 132,190&#10;             L132,216 C96,216 96,230 60,230 Z" fill="rgb(29,158,117)" fill-opacity="0.35" style="fill:rgb(29, 158, 117);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+    <!-- ── RUBANS B→C ── -->
+
+    <!-- B1→C1 (violet, gros flux) -->
+    <path d="M148,44 C184,44 184,50 220,50&#10;             L220,130 C184,130 184,134 148,134 Z" fill="rgb(93,108,192)" fill-opacity="0.30" style="fill:rgb(93, 108, 192);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+    <!-- B2→C1 (vert→violet, flux moyen) -->
+    <path d="M148,146 C184,146 184,130 220,130&#10;             L220,160 C184,160 184,182 148,182 Z" fill="rgb(180,188,228)" fill-opacity="0.25" style="fill:rgb(180, 188, 228);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+    <!-- B2→C2 (vert, flux) -->
+    <path d="M148,182 C184,182 184,172 220,172&#10;             L220,230 C184,230 184,216 148,216 Z" fill="rgb(180,188,228)" fill-opacity="0.22" style="fill:rgb(180, 188, 228);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+    <!-- ── NŒUDS COL A ── -->
+    <rect x="44" y="50" width="16" height="60" rx="3" fill="rgb(93,108,192)" style="fill:rgb(93, 108, 192);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <rect x="44" y="120" width="16" height="50" rx="3" fill="rgb(180,188,228)" style="fill:rgb(180, 188, 228);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <rect x="44" y="190" width="16" height="40" rx="3" fill="rgb(29,158,117)" style="fill:rgb(29, 158, 117);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+    <!-- ── NŒUDS COL B ── -->
+    <rect x="132" y="44" width="16" height="90" rx="3" fill="rgb(93,108,192)" style="fill:rgb(93, 108, 192);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <rect x="132" y="146" width="16" height="70" rx="3" fill="rgb(180,188,228)" style="fill:rgb(180, 188, 228);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+    <!-- ── NŒUDS COL C ── -->
+    <rect x="220" y="50" width="16" height="110" rx="3" fill="rgb(93,108,192)" style="fill:rgb(93, 108, 192);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <rect x="220" y="172" width="16" height="58" rx="3" fill="rgb(180,188,228)" style="fill:rgb(180, 188, 228);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  </g>
+
+  <rect x="12" y="12" width="256" height="256" rx="28" fill="none" stroke="rgb(93,108,192)" stroke-width="1.5" opacity="0.25" style="fill:none;stroke:rgb(93, 108, 192);color:rgb(0, 0, 0);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.25;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+</svg>

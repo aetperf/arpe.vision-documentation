@@ -1,0 +1,90 @@
+<svg width="280" height="280" viewBox="0 0 280 280" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Tree Chart Icon</title>
+  <desc>Icône tree chart hiérarchique avec nœuds et branches</desc>
+
+  <defs>
+    <clipPath id="sq"><rect x="12" y="12" width="256" height="256" rx="28"/></clipPath>
+  </defs>
+
+  <rect x="12" y="12" width="256" height="256" rx="28" fill="#EEF0FA"/>
+
+  <g clip-path="url(#sq)">
+    <!--
+      Tree chart horizontal (orientation gauche → droite)
+      Root : x=50, y=140 (centre gauche)
+      
+      Branche VIOLET (haut) :
+        Level 1 : x=120, y=70
+        Level 2a : x=190, y=50
+        Level 2b : x=190, y=90
+      
+      Branche VERT (milieu) :
+        Level 1 : x=120, y=140
+        Level 2a : x=190, y=120
+        Level 2b : x=190, y=160
+      
+      Branche LIGHT VIOLET (bas) :
+        Level 1 : x=120, y=210
+        Level 2a : x=190, y=190
+        Level 2b : x=190, y=230
+      
+      Rayons nœuds : Root=10, Level1=8, Level2=6
+    -->
+
+    <!-- ══ CONNEXIONS (smooth cubic Bézier S-curves) ══ -->
+    
+    <!-- Root → Branch 1 (Violet) -->
+    <path d="M64,140 C88,140 88,70 110,70" stroke="rgb(93,108,192)" stroke-width="12" fill="none" stroke-linecap="round" opacity="0.35"/>
+    
+    <!-- Root → Branch 2 (Vert) -->
+    <path d="M64,140 C88,140 88,140 108,140" stroke="rgb(29,158,117)" stroke-width="16" fill="none" stroke-linecap="round" opacity="0.35"/>
+    
+    <!-- Root → Branch 3 (Light Violet) -->
+    <path d="M64,140 C88,140 88,210 110,210" stroke="rgb(180,188,228)" stroke-width="10" fill="none" stroke-linecap="round" opacity="0.35"/>
+
+    <!-- Violet branch → sub-nodes -->
+    <path d="M131,70 C158,70 158,40 184,40" stroke="rgb(93,108,192)" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.4"/>
+    <path d="M131,70 C158,70 158,65 184,65" stroke="rgb(93,108,192)" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.4"/>
+    <path d="M131,70 C158,70 158,90 184,90" stroke="rgb(93,108,192)" stroke-width="4.5" fill="none" stroke-linecap="round" opacity="0.4"/>
+    
+    <!-- Vert branch → sub-nodes -->
+    <path d="M133,140 C160,140 160,115 183,115" stroke="rgb(29,158,117)" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.4"/>
+    <path d="M133,140 C160,140 160,140 183,140" stroke="rgb(29,158,117)" stroke-width="7" fill="none" stroke-linecap="round" opacity="0.4"/>
+    <path d="M133,140 C160,140 160,165 183,165" stroke="rgb(29,158,117)" stroke-width="6.5" fill="none" stroke-linecap="round" opacity="0.4"/>
+    
+    <!-- Light Violet branch → sub-nodes -->
+    <path d="M131,210 C158,210 158,190 184,190" stroke="rgb(180,188,228)" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.4"/>
+    <path d="M131,210 C158,210 158,230 184,230" stroke="rgb(180,188,228)" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.4"/>
+
+    <!-- ══ NŒUDS (CIRCLES) ══ -->
+    
+    <!-- Root - largest -->
+    <circle cx="50" cy="140" r="14" fill="rgb(93,108,192)"/>
+    <circle cx="50" cy="140" r="14" fill="none" stroke="#EEF0FA" stroke-width="2"/>
+    
+    <!-- Level 1 nodes - medium -->
+    <circle cx="120" cy="70" r="11" fill="rgb(93,108,192)"/>
+    <circle cx="120" cy="70" r="11" fill="none" stroke="#EEF0FA" stroke-width="1.5"/>
+    
+    <circle cx="120" cy="140" r="13" fill="rgb(29,158,117)"/>
+    <circle cx="120" cy="140" r="13" fill="none" stroke="#EEF0FA" stroke-width="1.5"/>
+    
+    <circle cx="120" cy="210" r="11" fill="rgb(180,188,228)"/>
+    <circle cx="120" cy="210" r="11" fill="none" stroke="#EEF0FA" stroke-width="1.5"/>
+    
+    <!-- Level 2 nodes - smallest -->
+    <circle cx="190" cy="40" r="6.5" fill="rgb(93,108,192)"/>
+    <circle cx="190" cy="65" r="5.5" fill="rgb(93,108,192)"/>
+    <circle cx="190" cy="90" r="5" fill="rgb(93,108,192)"/>
+    
+    <circle cx="190" cy="115" r="8" fill="rgb(29,158,117)"/>
+    <circle cx="190" cy="140" r="7.5" fill="rgb(29,158,117)"/>
+    <circle cx="190" cy="165" r="7" fill="rgb(29,158,117)"/>
+    
+    <circle cx="190" cy="190" r="6" fill="rgb(180,188,228)"/>
+    <circle cx="190" cy="230" r="5" fill="rgb(180,188,228)"/>
+
+  </g>
+
+  <rect x="12" y="12" width="256" height="256" rx="28" fill="none" stroke="rgb(93,108,192)" stroke-width="1.5" opacity="0.25"/>
+</svg>
