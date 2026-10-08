@@ -5,7 +5,7 @@ title: 'Viz - Radar'
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# <img src='/arpe.vision-documentation/img/radar.svg' style={{height:'1.2em', verticalAlign:'middle', marginRight:'0.4em'}} /> Viz - Radar
+# <img src='/img/radar.svg' style={{height:'1.2em', verticalAlign:'middle', marginRight:'0.4em'}} /> Viz - Radar
 
 Visualize multivariate data with our Radar Chart extension for Tableau, ideal for comparing multiple variables across categories.
 

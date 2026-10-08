@@ -5,7 +5,7 @@ title: 'Viz - Sunburst'
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# <img src='/arpe.vision-documentation/img/sunburst.svg' style={{height:'1.2em', verticalAlign:'middle', marginRight:'0.4em'}} /> Viz - Sunburst
+# <img src='/img/sunburst.svg' style={{height:'1.2em', verticalAlign:'middle', marginRight:'0.4em'}} /> Viz - Sunburst
 
 Explore hierarchical data structures using the Sunburst Chart extension, perfect for visualizing nested relationships in Tableau.
 

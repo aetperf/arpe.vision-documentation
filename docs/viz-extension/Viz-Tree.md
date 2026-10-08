@@ -5,7 +5,7 @@ title: 'Viz - Tree'
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# <img src='/arpe.vision-documentation/img/tree.svg' style={{height:'1.2em', verticalAlign:'middle', marginRight:'0.4em'}} /> Viz - Tree
+# <img src='/img/tree.svg' style={{height:'1.2em', verticalAlign:'middle', marginRight:'0.4em'}} /> Viz - Tree
 
 Display parent-child relationships in a clear hierarchical layout with the Tree Chart extension for Tableau.
 

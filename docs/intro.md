@@ -25,9 +25,9 @@ There are two types of extensions available:
   </thead>
   <tbody>
     <tr>
-      <td><ThemedImage alt="radar" sources={{light:'/arpe.vision-documentation/media/example-radar.png',dark:'/arpe.vision-documentation/media/example-radar-dark.png'}} /></td>
-      <td><ThemedImage alt="sunburst" sources={{light:'/arpe.vision-documentation/media/example-sunburst.png',dark:'/arpe.vision-documentation/media/example-sunburst-dark.png'}} /></td>
-      <td><ThemedImage alt="tree" sources={{light:'/arpe.vision-documentation/media/example-tree.png',dark:'/arpe.vision-documentation/media/example-tree-dark.png'}} /></td>
+      <td><ThemedImage alt="radar" sources={{light:'/media/example-radar.png',dark:'/media/example-radar-dark.png'}} /></td>
+      <td><ThemedImage alt="sunburst" sources={{light:'/media/example-sunburst.png',dark:'/media/example-sunburst-dark.png'}} /></td>
+      <td><ThemedImage alt="tree" sources={{light:'/media/example-tree.png',dark:'/media/example-tree-dark.png'}} /></td>
     </tr>
     <tr>
       <th>Sankey</th>
@@ -35,8 +35,8 @@ There are two types of extensions available:
       <th></th>
     </tr>
     <tr>
-      <td><ThemedImage alt="sankey" sources={{light:'/arpe.vision-documentation/media/example-sankey.png',dark:'/arpe.vision-documentation/media/example-sankey-dark.png'}} /></td>
-      <td><ThemedImage alt="circular sankey" sources={{light:'/arpe.vision-documentation/media/example-sankeyC.png',dark:'/arpe.vision-documentation/media/example-sankeyC-dark.png'}} /></td>
+      <td><ThemedImage alt="sankey" sources={{light:'/media/example-sankey.png',dark:'/media/example-sankey-dark.png'}} /></td>
+      <td><ThemedImage alt="circular sankey" sources={{light:'/media/example-sankeyC.png',dark:'/media/example-sankeyC-dark.png'}} /></td>
       <td></td>
     </tr>
   </tbody>

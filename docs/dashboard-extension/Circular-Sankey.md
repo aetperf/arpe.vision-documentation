@@ -6,7 +6,7 @@ title: 'Circular Sankey'
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# <img src='/arpe.vision-documentation/img/circular_sankey.svg' style={{height:'1.2em', verticalAlign:'middle', marginRight:'0.4em'}} /> Circular Sankey
+# <img src='/img/circular_sankey.svg' style={{height:'1.2em', verticalAlign:'middle', marginRight:'0.4em'}} /> Circular Sankey
 
 Visualize cyclic flows and feedback loops with the Circular Sankey Chart extension, providing a circular layout for enhanced readability.
 

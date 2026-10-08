@@ -6,7 +6,7 @@ title: 'Sankey'
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# <img src='/arpe.vision-documentation/img/sankey.svg' style={{height:'1.2em', verticalAlign:'middle', marginRight:'0.4em'}} /> Sankey
+# <img src='/img/sankey.svg' style={{height:'1.2em', verticalAlign:'middle', marginRight:'0.4em'}} /> Sankey
 
 Create dynamic flow diagrams in Tableau using the Sankey Chart extension to represent relationships and data movement between nodes.
 
