@@ -11,8 +11,16 @@ Ensure your environment meets these requirements for optimal performance with Ar
 
 ### Minimum Version
 
+**Dashboard Extensions**
+
 - **Tableau Desktop**: 2018.2 or later
 - **Tableau Server**: 2018.2 or later
+- **Tableau Online**: Supported (always current version)
+
+**Viz Extensions**
+
+- **Tableau Desktop**: 2024.2 or later
+- **Tableau Server**: 2024.2 or later
 - **Tableau Online**: Supported (always current version)
 
 
@@ -25,6 +33,7 @@ Ensure your environment meets these requirements for optimal performance with Ar
 ### Tableau Server
 
 - ❗ **License required** for production use
+- The license key is included in the extension URL of the .trex file
 - Contact us for licensing options
 
 ### Tableau Online
@@ -41,4 +50,4 @@ Ensure your environment meets these requirements for optimal performance with Ar
 
 ---
 
-Last updated: July 2026
+Last updated: October 2026

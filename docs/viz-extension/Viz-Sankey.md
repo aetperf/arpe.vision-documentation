@@ -57,7 +57,7 @@ After adding the extension, add data to the Nodes and Value mark cards.
 </video>
 
 
-You can further customize the Sankey. In this example, the highlight color is set by entering a value directly. The link color is controlled by a parameter. The column palette is set to the Tableau palette Nurial Stone.
+You can further customize the Sankey. In this example, the highlight color is set by entering a value directly. The link color is controlled by a parameter. The column palette is set to the Tableau palette Nuriel Stone.
 
 <video src={useBaseUrl('/media/sankey-viz-custom.mp4')} controls width="600">
   Your browser does not support the video tag.

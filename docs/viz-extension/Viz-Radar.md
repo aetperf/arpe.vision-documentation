@@ -36,7 +36,7 @@ You can change the following elements for the Radar:
 | Name            | Default | Accepted Values | Additional Information |
 |-----------------|---------|----------------|--------------------------|
 | background color| white   | HTML names, hexadecimal, rgb. [See color names and codes](https://htmlcolorcodes.com/color-names/) | Ex: LightBlue, #ADD8E6, rgb(173, 216, 230). |
-| data color      | none    | HTML names, hexadecimal, rgb | Ex: LightBlue, #ADD8E6, rgb(173, 216, 230). |
+| data color      | none    | palette names : tableau 10, tableau 20, colorblind, seattle grays, traffic light, miller stone, superfishel stone, nuriel stone, jewel bright, summer, winter, green-orange-teal, red-blue-brown, purple-pink-gray, hue circle |
 | scale min       | auto    | Minimum value of the scale | The minimum value of the scale. |
 | scale max       | auto    | Maximum value of the scale | The maximum value of the scale. |
 | font size       | auto    | Numbers | The font size of the Radar chart is automatically adjusted by default. |

@@ -17,8 +17,11 @@ Arpe Vision provides multiple visualization extensions for Tableau, including Tr
 ### Visualization Extensions
 - **Tree Extension**: Hierarchical data visualization
 - **Sankey Extension**: Flow and relationship diagrams
+- **Circular Sankey Extension**: Cyclic flows and feedback loops (Dashboard Extension only)
 - **Sunburst Extension**: Nested hierarchical data
-- **Viz Extensions**: Advanced radar and specialized visualizations
+- **Radar Extension**: Multivariate comparison across categories
+
+Each extension exists as a Dashboard Extension. Tree, Sankey, Sunburst and Radar also exist as Viz Extensions.
 
 ### Agent Capabilities
 - Data processing and transformation
@@ -57,13 +60,9 @@ Each extension supports three configuration approaches:
 
 ## State Management
 
-Many extensions support state persistence:
-- Expand/collapse states
-- Selection states
-- Filter configurations
-- Custom settings
+Custom settings and filter configurations are saved with the workbook.
 
-This can be toggled per visualization requirement.
+The Tree extension can also save its expand/collapse state with the **save state** option.
 
 ## Common Parameters
 
@@ -76,12 +75,14 @@ Most extensions share common customization parameters:
 
 ## Filtering System
 
-Filtering follows a consistent pattern:
+In Dashboard Extensions, filtering follows a consistent pattern:
 1. Select target sheet
 2. Define source and target fields
 3. Create mapping relationship
 4. Apply filters through interaction
 5. Manage multiple concurrent filters
+
+Viz Extensions use Tableau's native actions instead.
 
 ## Extension States
 

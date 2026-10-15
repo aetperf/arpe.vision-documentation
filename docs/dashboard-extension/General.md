@@ -35,18 +35,37 @@ The extension will appear in your dashboard, displaying a window with a list of 
 
 ### Interactivity
 
-Five icons are rendered at the top right of each extension:
+Six icons are rendered at the top right of each extension:
 
 ![screenshot of the extensions icons](/media/icons.png)
 
 (from right to left)
 - **Arrow icon**: Hides the icons and displays a discrete menu icon: ![screenshot of the menu icon](/media/menu.png)
+- **Help icon**: Shows the tutorial inside the extension. Click it again to go back to the chart.
 - **Window icon**: Opens the window for sheet or parameter selection.
 - **Reload icon**: Reloads the extension.
 - **Settings icon**: Opens the settings window for customizing the extension.
 - **Filter icon**: Opens the filter configuration window, allowing you to create filters on other sheets in the dashboard when you click within the extension.
 
 Once the extension is configured, the icons become grey to be less intrusive. 
+
+### Customization window
+
+- Changes are previewed live in the extension while you edit the settings.
+- Colors can be typed (HTML names, hexadecimal, rgb) or chosen with a color picker.
+- If you close the window with unsaved changes, a warning asks whether to save them or close without saving.
+
+### Large data alert
+
+When the data has more rows than the extension is designed for, an **Alert data** window is displayed the first time the data is loaded. Click **Load** to display the chart anyway, or **Cancel** to stop. For a better experience, filter your data.
+
+| Extension | Alert threshold |
+|-----------|-----------------|
+| Radar | 100 rows |
+| Sankey | 250 rows |
+| Circular Sankey | 250 rows |
+| Sunburst | 400 rows |
+| Tree | 1000 rows |
 
 **Interactions:**
 

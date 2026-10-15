@@ -31,24 +31,24 @@ Customizations may be applied to both links and nodes.
 
 #### Link Customization Options
 
-| Name                | Default   | Accepted Values | Additional Informations |
+| Name                | Default   | Accepted Values | Additional Information |
 |---------------------|-----------|----------------|--------------------------|
-| background color    | white     | HTML names, hexadecimal, rgb. [See color names and codes](https://htmlcolorcodes.com/color-names/) | Ex: LightBlue, #ADD8E6, rgb(173, 216, 230). |▓
+| background color    | white     | HTML names, hexadecimal, rgb. [See color names and codes](https://htmlcolorcodes.com/color-names/) | Ex: LightBlue, #ADD8E6, rgb(173, 216, 230). |
 | link color          | color     | HTML names, hexadecimal, rgb. [See color names and codes](https://htmlcolorcodes.com/color-names/) | Ex: LightBlue, #ADD8E6, rgb(173, 216, 230). |
 | palette             | none      | tableau 10, tableau 20, colorblind, seattle grays, traffic light, miller stone, superfishel stone, nuriel stone, jewel bright, summer, winter, green-orange-teal, red-blue-brown, purple-pink-gray, hue circle, custom hue circle | 
 | speed               | speed     | Numbers |  Defines speed of animated dash |
 | alert               | alert     | true, false | If true, link blinks in red |
 | alignment           | justify   | justify, left, right, center |
-| link type           | arrows    | none, arrows, animated dash, full arrows |
+| link type           | arrows    | none, arrows, moving arrows, animated dash |
 | degraded color      | false     | true, false  | Requires node color to be defined |
-| percentage          | none      | true, false  | Display percentages at source, target, or both |
+| percentage          | none      | none, source, target, both | Display percentages at source, target, or both |
 | display values      | false     | true, false |
 | adaptive labels     | false     | true, false | If true, labels adapt to the link size, otherwise size is fixed. |
 | font size           | 10        | Numbers     | The font size of percentages are always 2px thinner than the font size. |
 
 #### Node Customization Options
 
-| Name                  | Default   | Accepted Values | Additional Informations |
+| Name                  | Default   | Accepted Values | Additional Information |
 |-----------------------|-----------|----------------|--------------------------|
 | node positioning      | automatic | automatic, manual | If manual, node positions must be defined. |
 | node color propagation| none      | source, target, none | Defines how node colors are propagated from link's colors. |

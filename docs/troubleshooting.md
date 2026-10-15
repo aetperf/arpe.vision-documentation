@@ -62,7 +62,7 @@ Common issues and solutions for Arpe.Vision extensions.
 <summary><strong>Extension is slow or unresponsive</strong></summary>
 
 
-1. **Reduce data volume**: Use filters to limit rows (aim for under 10,000 rows)
+1. **Reduce data volume**: Use filters to limit rows. Dashboard Extensions display an **Alert data** window above 100 rows (Radar), 250 rows (Sankey, Circular Sankey), 400 rows (Sunburst) or 1000 rows (Tree).
 2. **Optimize hierarchies**: Simplify deep hierarchies in Tree/Sunburst (max 5-6 levels)
 3. **Use extracts**: Convert live connections to extracts for better performance
 
@@ -97,7 +97,7 @@ Add the field to the worksheet's Marks card, then refresh the extension window. 
 <summary><strong>Extension works on Desktop but not Server/Online</strong></summary>
 
 
-1. **Check license**: Verify you have a valid license for Server/Online
+1. **Check license**: Verify you have a valid license for Server/Online. The extension displays **License Required** when no license key is found in the extension URL, and **Invalid License** when the key is not valid.
 2. **Server settings**: Contact your Tableau Server administrator to add the extension to the safe list on the server
 3. **Permissions**: Verify you have appropriate permissions
 

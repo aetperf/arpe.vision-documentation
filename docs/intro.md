@@ -53,4 +53,4 @@ Our extensions are **free to use on Tableau Desktop**. A license is required for
 
 Visit our website for licensing and pricing information.
 
-> **Last updated:** September, 2024
+> **Last updated:** October, 2026

@@ -17,7 +17,7 @@ Add a dimension to the Layer mark card and a measure to the Value mark card.
 
 ### Data Format
 
-The data can be hierarchical and superior to 0.
+The data must be hierarchical and contain only values greater than zero.
 
 ### Customization
 
@@ -56,7 +56,7 @@ After adding the extension, add data to the Layer and Value mark cards.
 </video>
 
 
-You can further customize the Sunburst. In this example, the color of the Sunburst is controlled by field adde in the detail mark. A parameter customizes the number of layers. The layer size and label rotation are set by selecting values in the dropdown menu.
+You can further customize the Sunburst. In this example, the color of the Sunburst is controlled by a field added to the Detail mark card. A parameter customizes the number of layers. The layer size and label rotation are set by selecting values in the dropdown menu.
 
 <video src={useBaseUrl('/media/sunburst-viz-custom.mp4')} controls width="600">
   Your browser does not support the video tag.

@@ -61,18 +61,15 @@ Extensions auto-detect data format based on sheet structure and configuration.
 
 ### Persistence Options
 
-**Option 1: Transient State** (default)
-- State lost when dashboard closes
-- Useful for: Exploration, temporary filters
+Customizations and filter configurations are saved in the extension settings of the workbook.
 
-**Option 2: Persistent State**
-- State saved to browser storage
-- Restored when dashboard reopens
-- Enable via: `save state: true`
+**Tree only:** the expand/collapse state is lost when the dashboard closes, unless the **save state** option is set to `true`. It is then saved with the workbook and restored when the dashboard reopens.
 
 ## Pattern: Filtering
 
-### Filter Workflow
+### Filter Workflow (Dashboard Extensions)
+
+Viz Extensions use Tableau's native actions instead of this workflow.
 
 ```
 1. Click filter icon
@@ -134,20 +131,17 @@ Extensions auto-detect data format based on sheet structure and configuration.
 ### Node Interaction
 
 **Single-click:**
-- Highlights node and its path
-- Shows node details/selection
-- Triggers filter if filter configured
+- Highlights the element and its path
+- Sunburst: shows the value in the center
+- Triggers the filter if a filter is configured (Dashboard Extensions)
 
 **Double-click:**
-- Expands or collapses node
-- Expands: Shows all children
-- Collapses: Hides all children
-- Shorthand for state toggle
+- Tree: expands or collapses the node
+- Sankey: filters the Sankey on the node; double-click again to remove the filter
+- Sunburst: drills down into the segment; double-click the center to drill up
 
-**Right-click:**
-- Context menu (if available)
-- Contextual options
-- Extension-specific actions
+**Ctrl+Click:**
+- Adds the element to the selection
 
 ## Pattern: Display Options
 
@@ -175,10 +169,15 @@ Extensions auto-detect data format based on sheet structure and configuration.
 - **north**: Top-to-bottom layout
 - **south**: Bottom-to-top layout
 
-**Radial Layouts:**
-- **0 degrees**: Standard orientation (east)
-- **180 degrees**: Rotated 180 degrees
-- **360 degrees**: Circular/radial layout
+**Radial Layouts (Tree):**
+- **0**: Standard (non-radial) layout
+- **90**: Quarter-circle layout
+- **180**: Half-circle layout
+- **360**: Full circular layout
+
+**Size Adjustment (Tree):**
+- **adjust: true**: The tree is resized to fit the extension window
+- **adjust: false**: The tree keeps its own size and a scrollbar appears when it is larger than the window
 
 ### Layout Adjustments
 

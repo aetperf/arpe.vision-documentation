@@ -37,16 +37,17 @@ Click the settings button to customize the Tree. Three methods are available:
 | palette               | none      | Palette names: tableau 10, tableau 20, colorblind, seattle grays, traffic light, miller stone, superfishel stone, nuriel stone, jewel bright, summer, winter, green-orange-teal, red-blue-brown, purple-pink-gray, hue circle  |
 | depth                 | 3         | Number | The number of layers displayed in the tree diagram. |
 | save state            | false     | true, false | If true, the tree state (if the nodes are open or closed) is saved when the dashboard is closed and restored when reopened. 
-| radial                | 0         | 0, 180, 360 |
+| radial                | 0         | 0, 90, 180, 360 |
 | orientation           | east      | east, north, south, west |
 | font size             | 14        | Number | The font size of the value are always 2px thinner than the selected font size. |
-| node padding          | 30/70     | Number | If the orientation is south or north, the pading is set to 70 by default.|
+| node padding          | 30/70     | Number | If the orientation is south or north, the padding is set to 70 by default.|
 | node size             | 3         | Number |
 | node stroke width     | 1.5       | Number | Width of the circle if no field is selected for Width customization. |
 | link color            | parent    | parent, child, none |
-| link width            | 1.5       | Number | | Width of the link if no field is selected for Width customization. |
+| link width            | 1.5       | Number | Width of the link if no field is selected for Width customization. |
 | proportional labels   | false     | true, false |
-| hide inter/Mediate labels | false  | true, false |
+| hide intermediate labels | false | true, false |
+| adjust                | true      | true, false | If true, the tree is resized to fit the extension window. If false, the tree keeps its own size and a scrollbar appears when it is larger than the window. |
 | display values        | false     | true, false |
 
 ### Filtering

@@ -31,6 +31,8 @@ Extensions are **free to use on Tableau Desktop**. A license is required for:
 
 Visit our website for pricing and licensing information.
 
+On Tableau Server and Tableau Online, the license key is included in the extension URL of the .trex file. Without a key, the extension displays **License Required**; with an invalid key, it displays **Invalid License**. Both screens have a **Get a License** button.
+
 </details>
 
 ## Installation & Setup
@@ -38,7 +40,7 @@ Visit our website for pricing and licensing information.
 <details>
 <summary><strong>Where do I download the extension files?</strong></summary>
 
-Extension files (.trex) are available from our website. Visit [Arpe.Vision](https://aetperf.github.io/arpe.vision-documentation/) for downloads. Or test the extension on Tableau Marketplace.
+Extension files (.trex) are available from our website. Visit [Arpe.Vision](https://arpe.vision/) for downloads. Or test the extension on Tableau Marketplace.
 
 </details>
 
@@ -119,10 +121,12 @@ For viz extensions, use Tableau's native filter actions to link the extension to
 <details>
 <summary><strong>Which Tableau versions are supported?</strong></summary>
 
-Extensions are compatible with:
+**Dashboard Extensions** are compatible with:
 - Tableau Desktop 2018.2 and later
 - Tableau Server 2018.2 and later
 - Tableau Online
+
+**Viz Extensions** require Tableau Desktop or Tableau Server 2024.2 and later, or Tableau Online.
 
 </details>
 
@@ -149,7 +153,7 @@ Extensions work in all modern browsers supported by Tableau:
 <details>
 <summary><strong>Can I use extension data in Tableau actions?</strong></summary>
 
-Yes! Dashboard Extensions support Tableau's filter actions. Configure them through the filter icon in each extension.
+Yes! Dashboard Extensions filter other sheets through the filter icon in each extension. Viz Extensions use Tableau's native actions, configured in the Actions menu of the dashboard.
 
 </details>
 
