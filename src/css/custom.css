@@ -4,6 +4,8 @@
  * work well for content-centric websites.
  */
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #5d6cc0;
@@ -15,6 +17,14 @@
   --ifm-color-primary-lightest: #8594d8;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  /* Font, navbar height and brand colors from arpe.vision */
+  --ifm-font-family-base: Inter, system-ui, sans-serif;
+  --ifm-heading-font-family: Inter, system-ui, sans-serif;
+  --ifm-navbar-height: 4rem;
+  --brand-accent: #5d6cc0;
+  --brand-foreground: #1d2530;
+  --brand-muted: #707d8f;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -27,12 +37,56 @@
   --ifm-color-primary-lighter: #8d9bdd;
   --ifm-color-primary-lightest: #a5b0e6;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  --brand-foreground: #f0f2f5;
+  --brand-muted: #8a97a8;
 }
 
-/* Colorize "Arpe" in accent color in the navbar title */
-.navbar__title {
-  background: linear-gradient(90deg, var(--ifm-color-primary) 0%, var(--ifm-color-primary) 17%, var(--ifm-navbar-link-color) 17.1%, var(--ifm-navbar-link-color) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+/* Navbar matching the arpe.vision header: 40px logo, 30px bold wordmark, 16px medium links */
+.navbar__brand {
+  gap: 0.5rem;
+}
+
+.navbar__logo {
+  height: 2.5rem;
+  margin-right: 0;
+}
+
+.brand-wordmark {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: var(--brand-foreground);
+}
+
+.brand-accent {
+  color: var(--brand-accent);
+}
+
+.brand-suffix {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: var(--brand-foreground);
+}
+
+.navbar__link {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.navbar__link:not(.navbar__link--active) {
+  color: var(--brand-muted);
+}
+
+.navbar__link:not(.navbar__link--active):hover {
+  color: var(--brand-foreground);
+}
+
+@media (max-width: 996px) {
+  .brand-suffix {
+    display: none;
+  }
 }

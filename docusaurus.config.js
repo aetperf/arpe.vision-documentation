@@ -32,7 +32,11 @@ const config = {
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -83,9 +87,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/logo.png',
       navbar: {
-        title: 'Arpe.Vision Documentation',
+        title: 'Arpe.vision Documentation',
         logo: {
-          alt: 'Arpe.Vision Documentation Logo',
+          alt: 'Arpe.vision logo',
           src: 'img/logo.png',
           srcDark: 'img/logo_white.png',
         },
