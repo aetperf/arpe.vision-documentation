@@ -87,7 +87,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/logo.png',
       navbar: {
-        title: 'Arpe.vision Documentation',
+        title: 'Arpe.vision Docs',
         logo: {
           alt: 'Arpe.vision logo',
           src: 'img/logo.png',
@@ -97,18 +97,13 @@ const config = {
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
-            position: 'left',
+            position: 'right',
             label: 'Guides',
           },
-          //{ to: '/blog', label: 'Blog', position: 'left' },
+          //{ to: '/blog', label: 'Blog', position: 'right' },
           {
             to: '/changelog',
             label: 'Changelog',
-            position: 'left',
-          },
-          {
-            href: 'https://github.com/aetperf',
-            label: 'GitHub',
             position: 'right',
           },
         ],
@@ -123,45 +118,41 @@ const config = {
                 label: 'Guides',
                 to: '/docs/intro',
               },
+              {
+                label: 'Changelog',
+                to: '/changelog',
+              },
             ],
           },
-          /* {
-             title: 'Community',
-             items: [
-               {
-                 label: 'Stack Overflow',
-                 href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-               },
-               {
-                 label: 'Discord',
-                 href: 'https://discordapp.com/invite/docusaurus',
-               },
-               {
-                 label: 'X',
-                 href: 'https://x.com/docusaurus',
-               },
-             ],
-           },*/
           {
-            title: 'More',
+            title: 'Links',
             items: [
+              {
+                label: 'Arpe.vision',
+                to: 'https://arpe.vision/',
+              },
               {
                 label: 'Linkedin',
                 to: 'https://www.linkedin.com/company/architecture-performance/posts/?feedView=all',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/aetperf',
-              },
-              {
-                label: 'Site',
-                href: 'https://www.architecture-performance.fr/',
+                to: 'https://github.com/aetperf',
               },
 
             ],
           },
+          {
+            title: 'Legal',
+            items: [
+              {
+                label: 'Security',
+                to: 'https://security.arpe.vision'
+              }
+            ]
+          }
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Arpe.vision. Built with Docusaurus.`,
+        copyright: `© ${new Date().getFullYear()} Arpe.vision. All rights reserved.`,
       },
       prism: {
         theme: prismThemes.github,

@@ -43,6 +43,43 @@
 }
 
 /* Navbar matching the arpe.vision header: 40px logo, 30px bold wordmark, 16px medium links */
+
+/* Header frame like security.arpe.vision: content centered in a 1400px container
+   with 16/24/32px side padding, 64px tall (80px from 1024px), thin bottom border
+   and a solid background instead of a shadow */
+.navbar {
+  padding: 0 1rem;
+  box-shadow: none;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  /* Solid colors: Infima's --ifm-background-color is transparent in light mode */
+  background-color: #ffffff;
+}
+
+[data-theme='dark'] .navbar {
+  background-color: #1b1b1d;
+}
+
+.navbar__inner {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+@media (min-width: 640px) {
+  .navbar {
+    padding: 0 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --ifm-navbar-height: 5rem;
+  }
+
+  .navbar {
+    padding: 0 2rem;
+  }
+}
+
 .navbar__brand {
   gap: 0.5rem;
 }
@@ -64,17 +101,49 @@
   color: var(--brand-accent);
 }
 
+/* Section label after the wordmark, as on security.arpe.vision:
+   thin vertical divider + small semibold uppercase widely-tracked text */
 .brand-suffix {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-  font-weight: 700;
-  letter-spacing: -0.025em;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  gap: 0.75rem;
+  margin-left: 0.5rem;
+}
+
+.brand-divider {
+  width: 1px;
+  height: 1.75rem;
+  background-color: var(--ifm-color-emphasis-300);
+}
+
+.brand-suffix-label {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
   color: var(--brand-foreground);
 }
 
 .navbar__link {
   font-size: 1rem;
   font-weight: 500;
+}
+
+/* Right-hand links like security.arpe.vision: 24px apart, 32px before the theme toggle */
+@media (min-width: 997px) {
+  .navbar__items--right {
+    gap: 1.5rem;
+  }
+
+  .navbar__items--right > .navbar__item {
+    padding: 0;
+  }
+
+  .navbar__items--right > .navbar__item:last-of-type {
+    margin-right: 0.5rem;
+  }
 }
 
 .navbar__link:not(.navbar__link--active) {
@@ -88,5 +157,123 @@
 @media (max-width: 996px) {
   .brand-suffix {
     display: none;
+  }
+}
+
+/* Footer like security.arpe.vision: card background, thin top border,
+   2-column grid on phones and 5 columns from 768px (brand block spans 2) */
+:root {
+  /* Light grey-blue panel so the footer stands apart from the white page */
+  --footer-background: #f1f3f8;
+  --footer-border: #dde1ea;
+}
+
+[data-theme='dark'] {
+  /* Lighter slate than the #1b1b1d page */
+  --footer-background: #252a33;
+  --footer-border: #353b47;
+}
+
+.site-footer {
+  margin-top: 2rem;
+  border-top: 1px solid var(--footer-border);
+  background-color: var(--footer-background);
+}
+
+.site-footer__container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+}
+
+.site-footer__grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem;
+}
+
+.site-footer__brand {
+  grid-column: span 2;
+}
+
+.site-footer__logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.site-footer__logo img {
+  height: 2rem;
+  width: auto;
+}
+
+.site-footer__description {
+  max-width: 20rem;
+  margin: 0;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: var(--brand-muted);
+}
+
+.site-footer__title {
+  margin: 0 0 1rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 600;
+  color: var(--brand-foreground);
+}
+
+.site-footer__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-footer__list li + li {
+  margin-top: 0.75rem;
+}
+
+.site-footer__link {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: var(--brand-muted);
+  transition: color 0.15s;
+}
+
+.site-footer__link:hover {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+}
+
+.site-footer__copyright {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--footer-border);
+  text-align: center;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: var(--brand-muted);
+}
+
+@media (min-width: 640px) {
+  .site-footer__container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .site-footer__grid {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .site-footer__container {
+    padding: 4rem 2rem;
+  }
+
+  .site-footer__grid {
+    gap: 3rem;
   }
 }
